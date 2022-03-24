@@ -135,7 +135,7 @@ body {
 /* cards secction styling */
 .grid-cards-container {
   display: grid;
-  grid-template-rows: 1.5fr repeat(6, 1fr);
+  grid-template-rows: 1.5fr repeat(auto-fit, 1fr);
   gap: 20px;
   padding-bottom: 120px;
 }
@@ -196,12 +196,13 @@ body {
 .cards {
   display: flex;
   flex-direction: column;
-  padding: 0 24px;
+  margin: 0 24px;
 }
 
 .card-photo-container {
   background-image: url(https://github.com/andgarzonmal/Portfolio/blob/main/images/cardbg.png?raw=true);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .card-title {
@@ -675,10 +676,59 @@ footer {
   
     /*RESENTS WORKS SECCTION BODY*/
     
-    /* .grid-cards-container{
-      grid-template-columns: 1.5fr repeat(auto-fit, 1fr);
-    } */
-  
+
+    .work-header {
+      margin-bottom: 20px;
+    }
+
+    .Stories-section p {
+      max-width: 90%;
+    }
+
+    .grid-cards-container{
+      display: grid;
+      grid-template-rows: 1.3fr repeat(3, 1fr);
+      grid-template-columns: 1fr 1fr;
+    } 
+   
+    #post-Stories {
+      grid-area: 1/1/1/4;
+    }
+
+    .cards{
+      padding-right: 0px;
+      margin-bottom: 12px;
+      margin-right: 0px;
+    }
+
+    .b2 {
+      display: none;
+    }
+    
+    #card1 {
+      grid-area:2/1/2/1;
+    }
+
+    #card2 {
+      grid-area:2/2/2/2;
+    }
+
+    #card3 {
+      grid-area: 3/1/3/1;
+    }
+
+    #card4 {
+      grid-area: 3/2/3/2;
+    }
+
+    #card5 {
+      grid-area: 4/1/4/1;
+    }
+
+    #card6 {
+      grid-area: 4/2/4/2;
+    }
+
     /*ABOUT FIRST SECTION*/
   
     .about-me {
