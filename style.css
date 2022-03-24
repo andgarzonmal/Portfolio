@@ -410,227 +410,6 @@ hr.inline {
   color: #fff;
 }
 
-/*##################
-####################
-####################*/
-
-@media screen and (min-width:768px) {
-  
-  /* NAV MEDIA QUERIE*/
-  .desktop {
-    display: contents;
-    font-family: "Inter",serif;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 20px;
-    letter-spacing: 0em;
-    text-align: center;
-  }
-  .phone {
-    display:none;
-  }
-  
-  .header li {
-    margin: 0px 32px;
-    text-decoration: none;
-    color: #fff;
-  }
-
-  #name {
-    font-family: "Inter", serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 20px;
-    letter-spacing: 0em;
-    text-align: center;
-    padding-left: 13%;
-  }
-
-  /* PRESENTATION MEDIA QUERIE*/
-
-  .presentation {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: row;
-    background-image: url(https://github.com/andgarzonmal/Portfolio/blob/desktop/images/head-desktop-bg.png?raw=true);
-    background-repeat: no-repeat;
-    background-position: 500px 40%;
-  }
-  
-  .social-media {
-    order:-1;
-  }
-  
-  #media-icons {
-    display:flex;
-    flex-direction:column;
-    justify-content:space-between;
-    padding: 70px 15px 70px 0px;
-    flex:1;
-  }
-
-  #media-icons li {
-    padding: 10px;
-    width:18px
-  }
-
-  .hello {
-    max-width: 50%;
-    margin-left: 60px;
-  }
-
-  #greatings {
-    font-family: "Crete Round", serif;
-    font-size: 72px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 82px;
-    letter-spacing: 0em;
-    text-align: left;
-  }
-
-  #hero {
-    font-family: "Inter", serif;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 44px;
-    letter-spacing: 0em;
-    text-align: left;
-  }
-
-  #invitation {
-    font-family: "Inter", serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
-    letter-spacing: 0em;
-    text-align: left;
-  }
-
-  /*RESENTS WORKS SECCTION HEADER*/
-
-  .works {
-    margin-left: 90px;
-    margin-right: 90px;
-  }
-  .My-Works-Titles {
-    padding: 0px 24px 0px 24px;
-  }
-  .work-header {
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-  }
-  
-  .hr {
-    flex:1;
-    margin: 0;
-    padding: 0;
-  }
-
-  /*RESENTS WORKS SECCTION BODY*/
-  
-  /* .grid-cards-container{
-    grid-template-columns: 1.5fr repeat(auto-fit, 1fr);
-  } */
-
-  /*ABOUT FIRST SECTION*/
-
-  .about-me {
-    align-items: flex-start;
-    max-width: 50%;
-  }
-  
-  .about {
-    padding-left:68px;
-  
-  }
-
-  .about-container{
-    background-image: url(https://github.com/andgarzonmal/Portfolio/blob/desktop/images/about-desk-bg.png?raw=true);
-    background-position: 500px 40%;
-    padding-right: 86px;
-  }
-  
-   /*ABOUT SECOND SECTION*/
-
-  .flex-container {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-left: 24px;
-  }
-
-  .capabilities {
-    margin-right: 10.2%;
-    align-items: flex-start;
-  }
-
-  .capabilities ul{
-    text-align: left;
-  }
-
-}
-
-@media screen and (min-width:1025px) {
-  .presentation {
-    background-position: 100% 100%;
-  }
-
-  .hello {
-    max-width: 40%;
-  }
-
-  #greatings {
-    font-family: "Crete Round", serif;
-    font-size: 72px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 82px;
-    letter-spacing: 0em;
-    text-align: left;
-  }
-
-  #hero {
-    font-family: "Inter", serif;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 44px;
-    letter-spacing: 0em;
-    text-align: left;
-  }
-
-  #invitation {
-    font-family: "Inter", serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
-    letter-spacing: 0em;
-    text-align: left;
-  }
-
-  /*ABOUT SECOND MEDIA QUERIE*/
-  .about-me {
-    max-width: 40%;
-  }
-  
-  .about-container {
-    background-position: 100% 50%;
-  }
-
-}
-
-/*##################
-####################
-####################*/
 /* form styling */
 
 .form-container {
@@ -772,3 +551,259 @@ footer {
 .m {
   margin-right: 0;
 }
+
+  /*##################
+  ####################
+  ####################*/
+  
+  @media screen and (min-width:768px) {
+    
+    /* NAV MEDIA QUERIE*/
+    .desktop {
+      display: contents;
+      font-family: "Inter",serif;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 20px;
+      letter-spacing: 0em;
+      text-align: center;
+    }
+    .phone {
+      display:none;
+    }
+    
+    .header li {
+      margin: 0px 32px;
+      text-decoration: none;
+      color: #fff;
+    }
+  
+    #name {
+      font-family: "Inter", serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 20px;
+      letter-spacing: 0em;
+      text-align: center;
+      padding-left: 13%;
+    }
+  
+    /* PRESENTATION MEDIA QUERIE*/
+  
+    .presentation {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      flex-direction: row;
+      background-image: url(https://github.com/andgarzonmal/Portfolio/blob/desktop/images/head-desktop-bg.png?raw=true);
+      background-repeat: no-repeat;
+      background-position: 500px 40%;
+    }
+    
+    .social-media {
+      order:-1;
+    }
+    
+    #media-icons {
+      display:flex;
+      flex-direction:column;
+      justify-content:space-between;
+      padding: 70px 15px 70px 0px;
+      flex:1;
+    }
+  
+    #media-icons li {
+      padding: 10px;
+      width:18px
+    }
+  
+    .hello {
+      max-width: 50%;
+      margin-left: 60px;
+    }
+  
+    #greatings {
+      font-family: "Crete Round", serif;
+      font-size: 72px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 82px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+  
+    #hero {
+      font-family: "Inter", serif;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 44px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+  
+    #invitation {
+      font-family: "Inter", serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 32px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+  
+    /*RESENTS WORKS SECCTION HEADER*/
+  
+    .works {
+      margin-left: 90px;
+      margin-right: 90px;
+    }
+    .My-Works-Titles {
+      padding: 0px 24px 0px 24px;
+    }
+    .work-header {
+      display:flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    
+    .hr {
+      flex:1;
+      margin: 0;
+      padding: 0;
+    }
+  
+    /*RESENTS WORKS SECCTION BODY*/
+    
+    /* .grid-cards-container{
+      grid-template-columns: 1.5fr repeat(auto-fit, 1fr);
+    } */
+  
+    /*ABOUT FIRST SECTION*/
+  
+    .about-me {
+      align-items: flex-start;
+      max-width: 50%;
+    }
+    
+    .about {
+      padding-left:68px;
+    
+    }
+  
+    .about-container{
+      background-image: url(https://github.com/andgarzonmal/Portfolio/blob/desktop/images/about-desk-bg.png?raw=true);
+      background-position: 500px 40%;
+      padding-right: 86px;
+    }
+    
+     /*ABOUT SECOND SECTION*/
+  
+    .flex-container {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-left: 24px;
+    }
+  
+    .capabilities {
+      margin-right: 10.2%;
+      align-items: flex-start;
+    }
+  
+    .capabilities ul{
+      text-align: left;
+    }
+
+    /*FOOTER SECTION*/
+    .form-container {
+      flex-direction: row;
+      margin-left: 68PX;
+      margin-right: 68PX;
+      align-items: center;
+      padding-top: 130px;
+    }
+
+    .form-header {
+      max-width: 40%;
+      text-align: left;
+      padding-top: 0px;
+      align-self: baseline;
+      font-family: Inter;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 52px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+
+    .form {
+      width: 100%;
+    }
+
+    .submit {
+      margin-left: 0px;
+    }
+
+    .line-break {
+      display: none;
+    }
+  }
+  
+  @media screen and (min-width:1025px) {
+    .presentation {
+      background-position: 100% 100%;
+    }
+  
+    .hello {
+      max-width: 40%;
+    }
+  
+    #greatings {
+      font-family: "Crete Round", serif;
+      font-size: 72px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 82px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+  
+    #hero {
+      font-family: "Inter", serif;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 44px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+  
+    #invitation {
+      font-family: "Inter", serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 32px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+  
+    /*ABOUT SECOND MEDIA QUERIE*/
+    .about-me {
+      max-width: 40%;
+    }
+    
+    .about-container {
+      background-position: 100% 50%;
+    }
+  
+  }
+  
+  /*##################
+  ####################
+  ####################*/
