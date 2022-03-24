@@ -678,9 +678,20 @@ footer {
   
     /*RESENTS WORKS SECCTION BODY*/
     
-    /* .grid-cards-container{
-      grid-template-columns: 1.5fr repeat(auto-fit, 1fr);
-    } */
+    .grid-cards-container{
+      display: grid;
+      grid-template-rows: 1.5fr repeat(2, 1fr);
+      grid-template-columns: repeat(3, 1fr);
+      gap:2px;
+    } 
+
+    #post-Stories {
+      grid-area: 1/1/1/4;
+      display: flex;
+      flex-direction: row;
+    }
+
+    
   
     /*ABOUT FIRST SECTION*/
   
