@@ -577,7 +577,23 @@ footer {
     line-height: 20px;
     letter-spacing: 0;
     text-align: center;
-    padding-left: 11.5%;
+    /* padding-left: 11.5%; */
+    margin-left: 10%;
+    animation-name: nav;
+    animation-duration: 3s;
+    animation-delay: 0.1s;
+  }
+
+  @keyframes nav {
+    from {
+      margin-right: 300%;
+    }
+
+    50% {
+      font-size: 50px;
+      color: #8993a4;
+    }
+
   }
 
   .nav-iconos {
