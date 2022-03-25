@@ -592,7 +592,7 @@ footer {
     align-items: center;
     justify-content: flex-start;
     flex-direction: row;
-    background-image: url(https://github.com/andgarzonmal/Portfolio/blob/desktop/images/head-desktop-bg.png?raw=true);
+    background-image: url(https://github.com/andgarzonmal/Portfolio/blob/main/images/head-desktop-bg.png?raw=true);
     background-repeat: no-repeat;
     background-position: 500px 40%;
   }
@@ -715,7 +715,7 @@ footer {
 
   #card1 {
     grid-area: 2/1/2/1;
-    background-image: url(https://github.com/andgarzonmal/Portfolio/blob/desktop/images/bg-card-1.png?raw=true);
+    background-image:url(https://raw.githubusercontent.com/andgarzonmal/Portfolio/main/images/bg-card-1.png);
     background-size: 100% 100%;
     border: 1px black solid;
     display: flex;
@@ -736,31 +736,31 @@ footer {
 
   #card2 {
     grid-area: 2/2/2/2;
-    background-image: url(https://github.com/andgarzonmal/Portfolio/blob/desktop/images/bg-card-2.png?raw=true);
+    background-image: url(https://github.com/andgarzonmal/Portfolio/blob/main/images/bg-card-2.png?raw=true);
     background-size: cover;
   }
 
   #card3 {
     grid-area: 3/1/3/1;
-    background-image: url(https://github.com/andgarzonmal/Portfolio/blob/desktop/images/bg-card-3.png?raw=true);
+    background-image: url(https://github.com/andgarzonmal/Portfolio/blob/main/images/bg-card-3.png?raw=true);
     background-size: cover;
   }
 
   #card4 {
     grid-area: 3/2/3/2;
-    background-image: url(https://github.com/andgarzonmal/Portfolio/blob/desktop/images/bg-card-4.png?raw=true);
+    background-image: url(https://github.com/andgarzonmal/Portfolio/blob/main/images/bg-card-4.png?raw=true);
     background-size: 100% 100%;
   }
 
   #card5 {
     grid-area: 4/1/4/1;
-    background-image: url(https://github.com/andgarzonmal/Portfolio/blob/desktop/images/bg-card-2.png?raw=true);
+    background-image: url(https://github.com/andgarzonmal/Portfolio/blob/main/images/bg-card-2.png?raw=true);
     background-size: cover;
   }
 
   #card6 {
     grid-area: 4/2/4/2;
-    background-image: url(https://github.com/andgarzonmal/Portfolio/blob/desktop/images/bg-card-3.png?raw=true);
+    background-image: url(https://github.com/andgarzonmal/Portfolio/blob/main/images/bg-card-3.png?raw=true);
     background-size: cover;
   }
 
@@ -776,7 +776,7 @@ footer {
   }
 
   .about-container {
-    background-image: url(https://github.com/andgarzonmal/Portfolio/blob/desktop/images/about-desk-bg.png?raw=true);
+    background-image: url(https://github.com/andgarzonmal/Portfolio/blob/main/images/about-desk-bg.png?raw=true);
     background-position: 500px 40%;
     padding-right: 86px;
   }
@@ -916,7 +916,7 @@ footer {
 
   #card1 {
     grid-area: 2/1/2/1;
-    background-image: url(https://github.com/andgarzonmal/Portfolio/blob/desktop/images/bg-card-1.png?raw=true);
+    background-image: url(https://github.com/andgarzonmal/Portfolio/blob/main/images/bg-card-1.png?raw=true);
     background-size: 100% 100%;
   }
 
