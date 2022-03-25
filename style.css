@@ -24,7 +24,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  font-family: "roboto", serif;
+  font-family: 'roboto', serif;
   background-color: #3c3a39;
   color: #fff;
   padding: 10px 0;
@@ -47,7 +47,7 @@ body {
 }
 
 #name {
-  font-family: "roboto", serif;
+  font-family: 'roboto', serif;
   color: #fff;
   font-size: 16px;
   margin-left: 24px;
@@ -72,19 +72,19 @@ body {
 }
 
 #greatings {
-  font-family: "crete round", serif;
+  font-family: 'crete round', serif;
   color: #ff6b00;
   font-size: 55.5px;
 }
 
 #hero {
-  font-family: "roboto", serif;
+  font-family: 'roboto', serif;
   color: #fff5e1;
   font-size: 24px;
 }
 
 #invitation {
-  font-family: "poppins", serif;
+  font-family: 'poppins', serif;
   color: #fff;
   font-size: 16px;
   margin-top: 10px;
@@ -116,7 +116,7 @@ body {
 
 .My-Works-Titles {
   font-size: 40px;
-  font-family: "crete round", serif;
+  font-family: 'crete round', serif;
   padding: 0 24px 24px 24px;
   font-weight: 400;
 }
@@ -152,13 +152,13 @@ body {
 }
 
 .Stories-title {
-  font-family: "crete round", serif;
+  font-family: 'crete round', serif;
   font-size: 32px;
   font-weight: 400;
 }
 
 #post-Stories p {
-  font-family: "inter", serif;
+  font-family: 'inter', serif;
   font-size: 16px;
   font-weight: 400;
   padding: 12px 0;
@@ -166,7 +166,7 @@ body {
 
 .Categorie-button {
   text-decoration: none;
-  font-family: "inter", serif;
+  font-family: 'inter', serif;
   font-size: 15px;
   color: #091e42;
 }
@@ -183,7 +183,7 @@ body {
   padding: 12px;
   background-color: #ff6b00;
   border-style: none;
-  font-family: "inter", serif;
+  font-family: 'inter', serif;
   font-weight: 700;
   font-size: 17px;
   color: #fff;
@@ -202,7 +202,7 @@ body {
 }
 
 .card-title {
-  font-family: "Crete Round", serif;
+  font-family: 'Crete Round', serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
@@ -216,7 +216,7 @@ body {
 .card-description {
   margin: 0 16px 12px 16px;
   color: #fff;
-  font-family: "Inter", serif;
+  font-family: 'Inter', serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -240,7 +240,7 @@ body {
 }
 
 .list-button {
-  font-family: "Inter", serif;
+  font-family: 'Inter', serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
@@ -280,7 +280,7 @@ body {
 }
 
 .myself {
-  font-family: "Crete Round", serif;
+  font-family: 'Crete Round', serif;
   font-size: 72px;
   font-style: normal;
   font-weight: 400;
@@ -297,7 +297,7 @@ body {
   padding: 12px;
   background-color: #ff6b00;
   border-style: none;
-  font-family: "inter", serif;
+  font-family: 'inter', serif;
   font-weight: 700;
   font-size: 17px;
   color: #fff;
@@ -308,7 +308,7 @@ body {
 }
 
 .software-developer {
-  font-family: "Inter", serif;
+  font-family: 'Inter', serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -340,7 +340,7 @@ hr.inline {
   background-repeat: no-repeat;
   background-position: 0 50%;
   padding-left: 35px;
-  font-family: "inter", serif;
+  font-family: 'inter', serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
@@ -355,7 +355,7 @@ hr.inline {
   flex-direction: column;
   align-items: center;
   gap: 44.73px;
-  font-family: "Inter", serif;
+  font-family: 'Inter', serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -379,7 +379,7 @@ hr.inline {
   background-repeat: no-repeat;
   background-position: 0 50%;
   padding-left: 35px;
-  font-family: "inter", serif;
+  font-family: 'inter', serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
@@ -394,7 +394,7 @@ hr.inline {
   background-repeat: no-repeat;
   background-position: 0 50%;
   padding-left: 35px;
-  font-family: "inter", serif;
+  font-family: 'inter', serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
@@ -415,7 +415,7 @@ hr.inline {
   display: flex;
   justify-content: center;
   padding: 120px 24px 73px 24px;
-  font-family: "Inter", serif;
+  font-family: 'Inter', serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
@@ -451,7 +451,7 @@ hr.inline {
 }
 
 .form-input::placeholder {
-  font-family: "Inter", serif;
+  font-family: 'Inter', serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -472,7 +472,7 @@ hr.inline {
 }
 
 #text::placeholder {
-  font-family: "Inter", serif;
+  font-family: 'Inter', serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -486,7 +486,7 @@ hr.inline {
   padding: 12px;
   background-color: #ff6b00;
   border-style: none;
-  font-family: "inter", serif;
+  font-family: 'inter', serif;
   font-weight: 700;
   font-size: 17px;
   color: #fff;
@@ -550,7 +550,7 @@ footer {
   /* NAV MEDIA QUERIE */
   .desktop {
     display: contents;
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
@@ -570,7 +570,7 @@ footer {
   }
 
   #name {
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -578,6 +578,20 @@ footer {
     letter-spacing: 0;
     text-align: center;
     padding-left: 11.5%;
+    animation-name: nav;
+    animation-duration: 3s;
+    animation-delay: 0.1s;
+  }
+
+  @keyframes nav {
+    from {
+      margin-right: 300%;
+    }
+
+    50% {
+      font-size: 50px;
+      color: #8993a4;
+    }
   }
 
   .nav-iconos {
@@ -620,7 +634,7 @@ footer {
   }
 
   #greatings {
-    font-family: "Crete Round", serif;
+    font-family: 'Crete Round', serif;
     font-size: 72px;
     font-style: normal;
     font-weight: 400;
@@ -630,7 +644,7 @@ footer {
   }
 
   #hero {
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 500;
@@ -640,7 +654,7 @@ footer {
   }
 
   #invitation {
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -676,7 +690,7 @@ footer {
   /* RESENTS WORKS SECCTION BODY */
 
   .Stories-section p {
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -701,6 +715,21 @@ footer {
     margin-right: 0;
   }
 
+  .animate:hover {
+    animation-name: motion;
+    animation-duration: 2s;
+  }
+
+  @keyframes motion {
+    25% {
+      transform: scale(0.7);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+
   .b2 {
     display: none;
   }
@@ -715,7 +744,7 @@ footer {
 
   #card1 {
     grid-area: 2/1/2/1;
-    background-image:url(https://raw.githubusercontent.com/andgarzonmal/Portfolio/main/images/bg-card-1.png);
+    background-image: url(https://raw.githubusercontent.com/andgarzonmal/Portfolio/main/images/bg-card-1.png);
     background-size: 100% 100%;
     border: 1px black solid;
     display: flex;
@@ -813,12 +842,29 @@ footer {
     text-align: left;
     padding-top: 0;
     align-self: baseline;
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: 52px;
     letter-spacing: 0;
+    animation-name: slider;
+    animation-duration: 3s;
+    animation-delay: 0.7s;
+  }
+
+  @keyframes slider {
+    25% {
+      transform: translate(-1000px, -100px);
+    }
+
+    50% {
+      transform: translate(30px, 30px);
+    }
+
+    100% {
+      transform: translate(0, 0);
+    }
   }
 
   .form {
@@ -832,6 +878,14 @@ footer {
   .line-break {
     display: none;
   }
+
+  .but:hover {
+    cursor: pointer;
+    background: #fff5e1;
+    color: #ff6b00;
+    border: 0.1px solid #ff6b00;
+    transition: ease-in-out 1s;
+  }
 }
 
 @media screen and (min-width: 1025px) {
@@ -844,7 +898,7 @@ footer {
   }
 
   #greatings {
-    font-family: "Crete Round", serif;
+    font-family: 'Crete Round', serif;
     font-size: 72px;
     font-style: normal;
     font-weight: 400;
@@ -854,7 +908,7 @@ footer {
   }
 
   #hero {
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 500;
@@ -864,7 +918,7 @@ footer {
   }
 
   #invitation {
-    font-family: "Inter", serif;
+    font-family: 'Inter', serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
