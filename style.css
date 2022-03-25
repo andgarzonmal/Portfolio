@@ -58,7 +58,6 @@ body {
   display: none;
 }
 
-
 /* self presentation styling */
 .presentation {
   height: 100vh;
@@ -103,7 +102,6 @@ body {
 .fa {
   width: 20px;
 }
-
 
 /* My recent works heading Styling */
 
@@ -260,7 +258,6 @@ body {
 .button-Stories:hover {
   background-color: #ee9a5e;
 }
-
 
 /* About section styling */
 .about {
@@ -548,10 +545,6 @@ footer {
 .m {
   margin-right: 0;
 }
-
-/* ##################
-  ####################
-  #################### */
 
 @media screen and (min-width: 768px) {
   /* NAV MEDIA QUERIE */
@@ -943,7 +936,3 @@ footer {
     grid-area: 3/3/3/3;
   }
 }
-
-/* ##################
-  ####################
-  #################### */
