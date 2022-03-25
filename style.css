@@ -716,6 +716,20 @@ footer {
     margin-right: 0;
   }
 
+  .animate:hover{
+    animation-name: motion;
+    animation-duration: 2s;
+  }
+
+  @keyframes motion {
+    25% {
+      transform: scale(0.7);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
   .b2 {
     display: none;
   }
@@ -872,7 +886,7 @@ footer {
     background: #fff5e1;
     color: #ff6b00;
     border: 0.1px solid #ff6b00;
-    transition:ease-in-out 1s;
+    transition: ease-in-out 1s;
   }
 }
 
