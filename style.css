@@ -866,6 +866,14 @@ footer {
   .line-break {
     display: none;
   }
+
+  .but:hover {
+    cursor: pointer;
+    background: #fff5e1;
+    color: #ff6b00;
+    border: 0.1px solid #ff6b00;
+    transition:ease-in-out 1s;
+  }
 }
 
 @media screen and (min-width: 1025px) {
