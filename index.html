@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
   <head> 
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -20,31 +20,51 @@
 
   <body>
     <!-- Header section -->
+
     <header>
       <nav class="nav">
-        <ul class="header">
-          <li><a href="#" id="name">Andrés Garzón</a></li>
-          <li id="menu">
-            <a href="#">
-              <i class="material-icons">menu</i>
-            </a>
-          </li>
-        </ul>
+        <a href="#" id="name">Andrés Garzón</a>
+        <div class="nav-iconos">
+          <ul class="header">
+            <li>
+              <a href="" class="header-btn desktop">Portfolio</a>
+            </li>
+            <li>
+              <a href="" class="header-btn desktop">About</a>
+            </li>
+            <li>
+              <a href="" class="header-btn desktop">Contact</a>
+            </li>
+            <li id=".menu" class="desktop">
+              <a href="#">
+                <i class="material-icons mail">mail_outline</i>
+              </a>
+            </li>
+            <li id="menu" class="phone">
+              <a href="#">
+                <i class="material-icons">menu</i>
+              </a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
 
     <!--self presentation-->
 
-    <section id="presentation">
-      <h1 id="greatings">Hey There. I’m Andrés </h1>
-      <h3 id="hero">I’am a Software Developer</h3>
-      <p id="invitation">
-        I can help you build a product , feature or website. Look through some
-        of my work and experience! If you like what you see and have a project
-        you need coded, don’t hestiate to contact me.
-      </p>
+    <section class="presentation">
 
-      <div id="social-media">
+      <article class="hello">
+        <h1 id="greatings">Hey There. I’m Andrés </h1>
+        <h3 id="hero">I’am a Software Developer</h3>
+        <p id="invitation">
+          I can help you build a product , feature or website. Look through some
+          of my work and experience! If you like what you see and have a project
+          you need coded, don’t hestiate to contact me.
+        </p>
+      </article>
+
+      <article class="social-media">
         <ul id="media-icons">
           <li>
             <a href="#">
@@ -76,215 +96,184 @@
             </a>
           </li>
         </ul>
-      </div>
+      </article>
     </section>
 
     <!--Recent works section-->
 
-    <section id="Works">
-      <div class="work-header">
-        <h1 class="My-Works-Titles">My Recent Works</h1>
-        <hr />
-      </div>
+    <section class="works">
+      <header class="work-header">
+        <h2 class="My-Works-Titles">My Recent Works</h2>
+        <hr class="hr"/>
+      </header>
       <article class="grid-cards-container">
         <div id="post-Stories">
-          <img
-            src="./images/Stories.png"
-            id="Stories-image"
-            alt="Stories image"
-          />
-          <h2 class="Stories-title">Multi-Post Stories</h2>
-          <p
+          <div class="img">
+            <img
+              class="post-img"
+              src="./images/Stories.png"
+              id="Stories-image"
+              alt="Stories image"
+            />
+          </div>
+          <div class="Stories-section">
+            <h2 class="Stories-title">Multi-Post Stories</h2>
+            <p>
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has been the industry's standard dummy text ever
+              since the 1500s, when an unknown printer took a standard dummy
+              text.
+            </p>
+            <div class="post-Stories-caregories">
+              <ul class="categories">
+                <li class="list">
+                  <a class="Categorie-button" href="#">Css</a>
+                </li>
+                <li class="list">
+                  <a class="Categorie-button" href="#">html</a>
+                </li>
+                <li class="list">
+                  <a class="Categorie-button" href="#">bootstrap</a>
+                </li>
+                <li class="list">
+                  <a class="Categorie-button" href="#">Ruby</a>
+                </li>
+              </ul>
+              <button class="button-Stories" type="button">
+                <span>See project</span>
+              </button>
+            </div>
+          </div> 
+        </div>
+
+        <div class="card-photo-container cards" id="card1">
+          <h2 class="card-title">Profesional Art Printing Data</h2>
+          <p class="card-description"
             >A daily selection of privately personalized reads; no accounts or
-            sign-ups required. has been the industry's standard dummy text ever
-            since the 1500s, when an unknown printer took a standard dummy
-            text.</p
+            sign-ups required. has been the industry's standard</p
           >
-          <div class="post-Stories-caregories">
-            <ul class="categories">
-              <li class="list">
-                <a class="Categorie-button" href="#">Css</a>
-              </li>
-              <li class="list">
-                <a class="Categorie-button" href="#">html</a>
-              </li>
-              <li class="list">
-                <a class="Categorie-button" href="#">bootstrap</a>
-              </li>
-              <li class="list">
-                <a class="Categorie-button" href="#">Ruby</a>
-              </li>
-            </ul>
-            <button class="button-Stories" type="button">
-              <span>See project</span>
-            </button>
-          </div>
+          <ul class="card-list">
+            <li class="list-item"
+              ><a class="list-button" href="#">html</a>
+            </li>
+            <li class="list-item"
+              ><a class="list-button" href="#">bootstrap</a>
+            </li>
+            <li class="list-item">
+              <a class="list-button" href="#">Ruby</a>
+            </li>
+          </ul>
+          <button class="button-Stories b1" type="button">
+            <span>See project</span>
+          </button>
         </div>
-
-        <div class="cards" id="card1">
-          <div class="card-photo-container">
-            <h2 class="card-title">Profesional Art Printing Data</h2>
-            <p class="card-description"
-              >A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard</p
+        
+        <div class="card-photo-container cards" id="card2">
+          <h2 class="card-title  d1">Data Dashboard Healthcare</h2>
+          <p class="card-description"
+            >A daily selection of privately personalized reads; no accounts or
+            sign-ups required. has been the industry's standard</p
+          >
+          <ul class="card-list">
+            <li class="list-item"
+              ><a class="list-button" href="#">html</a></li
             >
-            <ul class="card-list">
-              <li class="list-item"
-                ><a class="list-button" href="#">html</a></li
-              >
-              <li class="list-item"
-                ><a class="list-button" href="#">bootstrap</a></li
-              >
-              <li class="list-item"
-                ><a class="list-button" href="#">Ruby</a></li
-              >
-            </ul>
-          </div>
-          <button class="button-Stories" type="button">
+            <li class="list-item"
+              ><a class="list-button" href="#">bootstrap</a></li
+            >
+            <li class="list-item"
+              ><a class="list-button" href="#">Ruby</a></li
+            >
+          </ul>
+          <button class="button-Stories b2"  type="button">
+            <span>See project</span>
+          </button>
+        </div>
+        
+        <div class="card-photo-container cards" id="card3" >
+          <h2 class="card-title d2">Website Protfolio </h2>
+          <p class="card-description"
+            >A daily selection of privately personalized reads; no accounts or
+            sign-ups required. has been the industry's standard</p
+          >
+          <ul class="card-list">
+            <li class="list-item"
+              ><a class="list-button" href="#">html</a></li
+            >
+            <li class="list-item"
+              ><a class="list-button" href="#">bootstrap</a></li
+            >
+            <li class="list-item"
+              ><a class="list-button" href="#">Ruby</a></li
+            >
+          </ul>
+          <button class="button-Stories b2" type="button">
             <span>See project</span>
           </button>
         </div>
 
-        <div class="cards" id="card2">
-          <div class="card-photo-container">
-            <h2 class="card-title">Profesional Art Printing Data</h2>
-            <p class="card-description"
-              >A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard</p
+        <div class="card-photo-container cards" id="card4">
+          <h2 class="card-title d1">Profesional Art Printing Data More</h2>
+          <p class="card-description"
+            >A daily selection of privately personalized reads; no accounts or
+            sign-ups required. has been the industry's standard</p
+          >
+          <ul class="card-list">
+            <li class="list-item"
+              ><a class="list-button" href="#">html</a></li
             >
-            <ul class="card-list">
-              <li class="list-item"
-                ><a class="list-button" href="#">html</a></li
-              >
-              <li class="list-item"
-                ><a class="list-button" href="#">bootstrap</a></li
-              >
-              <li class="list-item"
-                ><a class="list-button" href="#">Ruby</a></li
-              >
-            </ul>
-          </div>
-          <button class="button-Stories" type="button">
+            <li class="list-item"
+              ><a class="list-button" href="#">bootstrap</a></li
+            >
+            <li class="list-item"
+              ><a class="list-button" href="#">Ruby</a></li
+            >
+          </ul>
+          <button class="button-Stories b2" type="button">
             <span>See project</span>
           </button>
         </div>
 
-        <div class="cards" id="card3">
-          <div class="card-photo-container">
-            <h2 class="card-title">Profesional Art Printing Data</h2>
-            <p class="card-description"
-              >A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard</p
-            >
-            <ul class="card-list">
-              <li class="list-item"
-                ><a class="list-button" href="#">html</a></li
-              >
-              <li class="list-item"
-                ><a class="list-button" href="#">bootstrap</a></li
-              >
-              <li class="list-item"
-                ><a class="list-button" href="#">Ruby</a></li
-              >
-            </ul>
-          </div>
-          <button class="button-Stories" type="button">
+        <div class="card-photo-container cards" id="card5">
+          <h2 class="card-title d1">Data Dashboard Healthcare</h2>
+          <p class="card-description"
+            >A daily selection of privately personalized reads; no accounts or
+            sign-ups required. has been the industry's standard</p
+          >
+          <ul class="card-list">
+            <li class="list-item">
+              <a class="list-button" href="#">html</a>
+            </li>
+            <li class="list-item">
+              <a class="list-button" href="#">bootstrap</a>
+            </li>
+            <li class="list-item"
+              ><a class="list-button" href="#">Ruby</a>
+            </li>
+          </ul>
+          <button class="button-Stories b2" type="button">
             <span>See project</span>
           </button>
         </div>
 
-        <div class="cards" id="card4">
-          <div class="card-photo-container">
-            <h2 class="card-title">Profesional Art Printing Data</h2>
-            <p class="card-description"
-              >A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard</p
-            >
-            <ul class="card-list">
-              <li class="list-item"
-                ><a class="list-button" href="#">html</a></li
-              >
-              <li class="list-item"
-                ><a class="list-button" href="#">bootstrap</a></li
-              >
-              <li class="list-item"
-                ><a class="list-button" href="#">Ruby</a></li
-              >
-            </ul>
-          </div>
-          <button class="button-Stories" type="button">
-            <span>See project</span>
-          </button>
-        </div>
-
-        <div class="cards" id="card5">
-          <div class="card-photo-container">
-            <h2 class="card-title">Profesional Art Printing Data</h2>
-            <p class="card-description"
-              >A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard</p
-            >
-            <ul class="card-list">
-              <li class="list-item"
-                ><a class="list-button" href="#">html</a></li
-              >
-              <li class="list-item"
-                ><a class="list-button" href="#">bootstrap</a></li
-              >
-              <li class="list-item"
-                ><a class="list-button" href="#">Ruby</a></li
-              >
-            </ul>
-          </div>
-          <button class="button-Stories" type="button">
-            <span>See project</span>
-          </button>
-        </div>
-
-        <div class="cards" id="card6">
-          <div class="card-photo-container">
-            <h2 class="card-title">Profesional Art Printing Data</h2>
-            <p class="card-description"
-              >A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard</p
-            >
-            <ul class="card-list">
-              <li class="list-item"
-                ><a class="list-button" href="#">html</a></li
-              >
-              <li class="list-item"
-                ><a class="list-button" href="#">bootstrap</a></li
-              >
-              <li class="list-item"
-                ><a class="list-button" href="#">Ruby</a></li
-              >
-            </ul>
-          </div>
-          <button class="button-Stories" type="button">
-            <span>See project</span>
-          </button>
-        </div>
-
-        <div class="cards" id="card7">
-          <div class="card-photo-container">
-            <h2 class="card-title">Profesional Art Printing Data</h2>
-            <p class="card-description"
-              >A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard</p
-            >
-            <ul class="card-list">
-              <li class="list-item"
-                ><a class="list-button" href="#">html</a></li
-              >
-              <li class="list-item"
-                ><a class="list-button" href="#">bootstrap</a></li
-              >
-              <li class="list-item"
-                ><a class="list-button" href="#">Ruby</a></li
-              >
-            </ul>
-          </div>
-          <button class="button-Stories" type="button">
+        <div class="card-photo-container cards" id="card6">
+          <h2 class="card-title  d2">Website Protfolio</h2>
+          <p class="card-description"
+            >A daily selection of privately personalized reads; no accounts or
+            sign-ups required. has been the industry's standard
+          </p>
+          <ul class="card-list">
+            <li class="list-item"
+              ><a class="list-button" href="#">html</a>
+            </li>
+            <li class="list-item"
+              ><a class="list-button" href="#">bootstrap</a>
+            </li>
+            <li class="list-item"
+              ><a class="list-button" href="#">Ruby</a>
+            </li>
+          </ul>
+          <button class="button-Stories b2" type="button">
             <span>See project</span>
           </button>
         </div>
@@ -292,22 +281,22 @@
     </section>
 
     <section class="about">
-      <div class="about-me">
-        <h1 class="myself">About me</h1>
-        <p class="software-developer"
-          >Hello I’m a software developer! I can help you build a product ,
-          feature or website. Look through some of my work and experience! If
-          you like what you see and have a project you need coded, don’t
-          hestiate to contact me.</p
-        >
-        <button class="button-card" type="button">
-          <span>Get My Resume</span>
-        </button>
-      </div>
-    </section>
-
-    <section class="abilities">
-      <hr class="inline" />
+      <article class="about-container">
+        <div class="about-me">
+          <h1 class="myself">About me</h1>
+          <p class="software-developer"
+            >Hello I’m a software developer! I can help you build a product ,
+            feature or website. Look through some of my work and experience! If
+            you like what you see and have a project you need coded, don’t
+            hestiate to contact me.</p
+          >
+          <button class="button-card" type="button">
+            <span>Get My Resume</span>
+          </button>
+        </div>
+      </article>
+      <hr class="inline"/> 
+      
       <ul class="flex-container">
         <li class="capabilities">
           <h2 class="language">Language</h2>
@@ -346,10 +335,10 @@
     <!-- form section -->
 
     <section class="form-container">
-      <h2 class="form-header"
-        >I'm always interested in hearing about new projects, so if you'd like
-        to chat please get in touch.</h2
-      >
+      <h2 class="form-header">
+        I'm always interested in hearing about new projects, so if you'd like
+        to chat please get in touch.
+      </h2>
       <form action="https://formspree.io/f/mzbovqgq" method="post" class="form">
         <ul class="ul-form">
           <li class="form-li">
