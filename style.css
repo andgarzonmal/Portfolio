@@ -17,9 +17,9 @@ body {
   color: #fff;
 }
 
-/*Header styling*/
+/* Header styling */
 
-.nav{
+.nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -27,27 +27,26 @@ body {
   font-family: "roboto", serif;
   background-color: #3c3a39;
   color: #fff;
-  padding: 10px 0px;
+  padding: 10px 0;
   position: sticky;
   width: 100vw;
 }
 
 .header {
-  display:flex;
-  justify-content:space-between;
+  display: flex;
+  justify-content: space-between;
   list-style: none;
   align-items: center;
-  width:40%;
+  width: 40%;
 }
 
 .header li a {
-  margin: 0px 32px;
+  margin: 0 32px;
   text-decoration: none;
   color: #fff;
 }
 
-
-#name { 
+#name {
   font-family: "roboto", serif;
   color: #fff;
   font-size: 16px;
@@ -108,7 +107,6 @@ body {
 
 /* My recent works heading Styling */
 
-
 .work-header {
   margin-top: 120px;
   margin-bottom: 80px;
@@ -121,23 +119,23 @@ body {
 .My-Works-Titles {
   font-size: 40px;
   font-family: "crete round", serif;
-  padding: 0px 24px 24px 24px;
+  padding: 0 24px 24px 24px;
   font-weight: 400;
 }
 
- .work-header hr {
+.work-header hr {
   border: none;
   height: 0.5px;
   background: #212121;
-  margin: 0 24px 0px 24px;
-} 
+  margin: 0 24px 0 24px;
+}
 
 /* cards secction styling */
 .grid-cards-container {
   display: grid;
-  grid-template-rows: 1.5fr repeat(auto-fit, 1fr);
   gap: 20px;
   padding-bottom: 120px;
+  grid-template-rows: 1.5fr 1fr;
 }
 
 #post-Stories {
@@ -275,6 +273,7 @@ body {
   background-position: 100% 98%;
   padding-bottom: 220px;
 }
+
 .about-me {
   display: flex;
   flex-direction: column;
@@ -325,9 +324,9 @@ body {
 
 .flex-container {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
   padding-top: 136px;
   padding-bottom: 60px;
 }
@@ -371,7 +370,7 @@ hr.inline {
 
 .capabilities ul {
   list-style: none;
-  padding-bottom: 44px; 
+  padding-bottom: 44px;
 }
 
 .cap-list {
@@ -550,413 +549,401 @@ footer {
   margin-right: 0;
 }
 
-  /*##################
+/* ##################
   ####################
-  ####################*/
-  
-  @media screen and (min-width:768px) {
-    
-    /* NAV MEDIA QUERIE*/
-    .desktop {
-      display: contents;
-      font-family: "Inter",serif;
-      font-size: 15px;
-      font-style: normal;
-      font-weight: 600;
-      line-height: 20px;
-      letter-spacing: 0em;
-      text-align: center;
-    }
+  #################### */
 
-    .phone {
-      display:none;
-    }
-    
-    .header li {
-      margin: 0px 32px;
-      text-decoration: none;
-      color: #fff;
-    }
-  
-    #name {
-      font-family: "Inter", serif;
-      font-size: 20px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 20px;
-      letter-spacing: 0em;
-      text-align: center;
-      padding-left: 75px;
-    }
-  
-    /* PRESENTATION MEDIA QUERIE*/
-  
-    .presentation {
-      height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: flex-start;
-      flex-direction: row;
-      background-image: url(https://github.com/andgarzonmal/Portfolio/blob/desktop/images/head-desktop-bg.png?raw=true);
-      background-repeat: no-repeat;
-      background-position: 500px 40%;
-    }
-    
-    .social-media {
-      order:-1;
-    }
-    
-    #media-icons {
-      display:flex;
-      flex-direction:column;
-      justify-content:space-between;
-      padding: 70px 15px 70px 0px;
-      flex:1;
-    }
-  
-    #media-icons li {
-      padding: 10px;
-      width:18px
-    }
-  
-    .hello {
-      max-width: 50%;
-      margin-left: 60px;
-    }
-  
-    #greatings {
-      font-family: "Crete Round", serif;
-      font-size: 72px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 82px;
-      letter-spacing: 0em;
-      text-align: left;
-    }
-  
-    #hero {
-      font-family: "Inter", serif;
-      font-size: 32px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: 44px;
-      letter-spacing: 0em;
-      text-align: left;
-    }
-  
-    #invitation {
-      font-family: "Inter", serif;
-      font-size: 20px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 32px;
-      letter-spacing: 0em;
-      text-align: left;
-    }
-  
-    /*RESENTS WORKS SECCTION HEADER*/
-    
-    .works {
-      margin-left: 90px;
-      margin-right: 90px;
-    }
-    .My-Works-Titles {
-      padding: 0px 24px 0px 24px;
-    }
-    .work-header {
-      display:flex;
-      flex-direction: row;
-      align-items: center;
-    }
-    
-    .hr {
-      flex:1;
-      margin: 0;
-      padding: 0;
-    }
-  
-    /*RESENTS WORKS SECCTION BODY*/
-    
-
-    .work-header {
-      margin-bottom: 160px;
-    }
-
-    .Stories-section p {
-      font-family: Inter;
-      font-size: 20px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 28px;
-      letter-spacing: 0em;
-      text-align: left;
-    }
-
-    .grid-cards-container{
-      display: grid;
-      grid-template-rows: 1.3fr repeat(3, 1fr);
-      grid-template-columns: 1fr 1fr;
-    } 
-   
-    #post-Stories {
-      grid-area: 1/1/1/4;
-    }
-
-    .cards{
-      padding-right: 0px;
-      margin-bottom: 0px;
-      margin-right: 0px;
-    }
-
-    .b2 {
-      display: none;
-    }
-
-    .d1 {
-      padding-top: 130px;
-    }
-
-    .d2 {
-      padding-top: 173px;
-    }
-    
-    #card1 {
-      grid-area:2/1/2/1;
-      background-image: url(https://github.com/andgarzonmal/Portfolio/blob/desktop/images/bg-card-1.png?raw=true);
-      background-size: 100% 100%;
-      border: 1px black solid;
-      display: flex;
-      flex-direction: column-reverse;
-    }
-
-    #card1 h2 {
-      display: none;
-    }
-
-    #card1 p {
-      display: none;
-    }
-
-    #card1 .card-list {
-      display: none;
-    }
-    
-
-    #card2 {
-      grid-area:2/2/2/2;
-      background-image: url(https://github.com/andgarzonmal/Portfolio/blob/desktop/images/bg-card-2.png?raw=true);
-      background-size: cover;
-    }
-
-    #card3 {
-      grid-area: 3/1/3/1;
-      background-image: url(https://github.com/andgarzonmal/Portfolio/blob/desktop/images/bg-card-3.png?raw=true);
-      background-size: cover;
-    }
-
-    #card4 {
-      grid-area: 3/2/3/2;
-      background-image: url(https://github.com/andgarzonmal/Portfolio/blob/desktop/images/bg-card-4.png?raw=true);
-      background-size: 100% 100%;
-    }
-
-    #card5 {
-      grid-area: 4/1/4/1;
-      background-image: url(https://github.com/andgarzonmal/Portfolio/blob/desktop/images/bg-card-2.png?raw=true);
-      background-size: cover;
-    }
-
-    #card6 {
-      grid-area: 4/2/4/2;
-      background-image: url(https://github.com/andgarzonmal/Portfolio/blob/desktop/images/bg-card-3.png?raw=true);
-      background-size: cover;
-    }
-
-    /*ABOUT FIRST SECTION*/
-  
-    .about-me {
-      align-items: flex-start;
-      max-width: 50%;
-    }
-    
-    .about {
-      padding-left:68px;
-    
-    }
-  
-    .about-container{
-      background-image: url(https://github.com/andgarzonmal/Portfolio/blob/desktop/images/about-desk-bg.png?raw=true);
-      background-position: 500px 40%;
-      padding-right: 86px;
-    }
-    
-     /*ABOUT SECOND SECTION*/
-  
-    .flex-container {
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: flex-start;
-      margin-left: 24px;
-    }
-  
-    .capabilities {
-      margin-right: 10.2%;
-      align-items: flex-start;
-    }
-  
-    .capabilities ul{
-      text-align: left;
-    }
-
-    /*FOOTER SECTION*/
-    .form-container {
-      flex-direction: row;
-      margin-left: 68PX;
-      margin-right: 68PX;
-      align-items: center;
-      padding-top: 130px;
-    }
-
-    .form-header {
-      max-width: 40%;
-      text-align: left;
-      padding-top: 0px;
-      align-self: baseline;
-      font-family: Inter;
-      font-size: 40px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 52px;
-      letter-spacing: 0em;
-      text-align: left;
-    }
-
-    .form {
-      width: 100%;
-    }
-
-    .submit {
-      margin-left: 0px;
-    }
-
-    .line-break {
-      display: none;
-    }
+@media screen and (min-width: 768px) {
+  /* NAV MEDIA QUERIE */
+  .desktop {
+    display: contents;
+    font-family: "Inter", serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: center;
   }
-  
-  @media screen and (min-width:1025px) {
-    .presentation {
-      background-position: 100% 100%;
-    }
-  
-    .hello {
-      max-width: 40%;
-    }
-  
-    #greatings {
-      font-family: "Crete Round", serif;
-      font-size: 72px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 82px;
-      letter-spacing: 0em;
-      text-align: left;
-    }
-  
-    #hero {
-      font-family: "Inter", serif;
-      font-size: 32px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: 44px;
-      letter-spacing: 0em;
-      text-align: left;
-    }
-  
-    #invitation {
-      font-family: "Inter", serif;
-      font-size: 20px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 32px;
-      letter-spacing: 0em;
-      text-align: left;
-    }
-  
-    /*ABOUT SECOND MEDIA QUERIE*/
-    .about-me {
-      max-width: 40%;
-    }
-    
-    .about-container {
-      background-position: 100% 50%;
-    }
-  
-    /*CARDS SECOND MEDIA QUERIE*/
-    
-    #post-Stories {
-      display: flex;
-      flex-direction: row;
-    }
-    
-    .Stories-section {
-      margin-left: 24px;
-    }
 
-    .post-img {
-      height: 448px;
-      width: 684px;
-    }
-    
-    .grid-cards-container{
-      display: grid;
-      grid-template-rows: 1fr repeat(2, 1fr);
-      grid-template-columns: 1fr 1fr 1fr;
-    } 
-   
-    #post-Stories {
-      grid-area: 1/1/1/4;
-    }
-
-    .cards{
-      padding-right: 0px;
-      margin-bottom: 0px;
-      margin-right: 0px;
-    }
-
-    .b2 {
-      display: none;
-    }
-    
-    #card1 {
-      grid-area:2/1/2/1;
-      background-image: url(https://github.com/andgarzonmal/Portfolio/blob/desktop/images/bg-card-1.png?raw=true);
-      background-size: 100% 100%;
-    }
-
-    #card2 {
-      grid-area:2/2/2/2;
-    }
-
-    #card3 {
-      grid-area: 2/3/3/3;
-    }
-
-    #card4 {
-      grid-area: 3/1/3/1;
-    }
-
-    #card5 {
-      grid-area: 3/2/3/3;
-    }
-
-    #card6 {
-      grid-area: 3/3/3/3;
-    }
-
-
+  .phone {
+    display: none;
   }
-  
-  /*##################
+
+  .header li {
+    margin: 0 32px;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  #name {
+    font-family: "Inter", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: center;
+    padding-left: 75px;
+  }
+
+  /* PRESENTATION MEDIA QUERIE */
+
+  .presentation {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    background-image: url(https://github.com/andgarzonmal/Portfolio/blob/desktop/images/head-desktop-bg.png?raw=true);
+    background-repeat: no-repeat;
+    background-position: 500px 40%;
+  }
+
+  .social-media {
+    order: -1;
+  }
+
+  #media-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 70px 15px 70px 0;
+    flex: 1;
+  }
+
+  #media-icons li {
+    padding: 10px;
+    width: 18px;
+  }
+
+  .hello {
+    max-width: 50%;
+    margin-left: 60px;
+  }
+
+  #greatings {
+    font-family: "Crete Round", serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 82px;
+    letter-spacing: 0;
+    text-align: left;
+  }
+
+  #hero {
+    font-family: "Inter", serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0;
+    text-align: left;
+  }
+
+  #invitation {
+    font-family: "Inter", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0;
+    text-align: left;
+  }
+
+  /* RESENTS WORKS SECCTION HEADER */
+
+  .works {
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+
+  .My-Works-Titles {
+    padding: 0 24px 0 24px;
+  }
+
+  .work-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 160px;
+  }
+
+  .hr {
+    flex: 1;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* RESENTS WORKS SECCTION BODY */
+
+  .Stories-section p {
+    font-family: "Inter", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0;
+    text-align: left;
+  }
+
+  .grid-cards-container {
+    display: grid;
+    grid-template-rows: 1.3fr repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #post-Stories {
+    grid-area: 1/1/1/4;
+  }
+
+  .cards {
+    padding-right: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+  }
+
+  .b2 {
+    display: none;
+  }
+
+  .d1 {
+    padding-top: 130px;
+  }
+
+  .d2 {
+    padding-top: 173px;
+  }
+
+  #card1 {
+    grid-area: 2/1/2/1;
+    background-image: url(https://github.com/andgarzonmal/Portfolio/blob/desktop/images/bg-card-1.png?raw=true);
+    background-size: 100% 100%;
+    border: 1px black solid;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  #card1 h2 {
+    display: none;
+  }
+
+  #card1 p {
+    display: none;
+  }
+
+  #card1 .card-list {
+    display: none;
+  }
+
+  #card2 {
+    grid-area: 2/2/2/2;
+    background-image: url(https://github.com/andgarzonmal/Portfolio/blob/desktop/images/bg-card-2.png?raw=true);
+    background-size: cover;
+  }
+
+  #card3 {
+    grid-area: 3/1/3/1;
+    background-image: url(https://github.com/andgarzonmal/Portfolio/blob/desktop/images/bg-card-3.png?raw=true);
+    background-size: cover;
+  }
+
+  #card4 {
+    grid-area: 3/2/3/2;
+    background-image: url(https://github.com/andgarzonmal/Portfolio/blob/desktop/images/bg-card-4.png?raw=true);
+    background-size: 100% 100%;
+  }
+
+  #card5 {
+    grid-area: 4/1/4/1;
+    background-image: url(https://github.com/andgarzonmal/Portfolio/blob/desktop/images/bg-card-2.png?raw=true);
+    background-size: cover;
+  }
+
+  #card6 {
+    grid-area: 4/2/4/2;
+    background-image: url(https://github.com/andgarzonmal/Portfolio/blob/desktop/images/bg-card-3.png?raw=true);
+    background-size: cover;
+  }
+
+  /* ABOUT FIRST SECTION */
+
+  .about-me {
+    align-items: flex-start;
+    max-width: 50%;
+  }
+
+  .about {
+    padding-left: 68px;
+  }
+
+  .about-container {
+    background-image: url(https://github.com/andgarzonmal/Portfolio/blob/desktop/images/about-desk-bg.png?raw=true);
+    background-position: 500px 40%;
+    padding-right: 86px;
+  }
+
+  /* ABOUT SECOND SECTION */
+
+  .flex-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 24px;
+  }
+
+  .capabilities {
+    margin-right: 10.2%;
+    align-items: flex-start;
+  }
+
+  .capabilities ul {
+    text-align: left;
+  }
+
+  /* FOOTER SECTION */
+  .form-container {
+    flex-direction: row;
+    margin-left: 68px;
+    margin-right: 68px;
+    align-items: center;
+    padding-top: 130px;
+  }
+
+  .form-header {
+    max-width: 40%;
+    text-align: left;
+    padding-top: 0;
+    align-self: baseline;
+    font-family: "Inter", serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0;
+  }
+
+  .form {
+    width: 100%;
+  }
+
+  .submit {
+    margin-left: 0;
+  }
+
+  .line-break {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .presentation {
+    background-position: 100% 100%;
+  }
+
+  .hello {
+    max-width: 40%;
+  }
+
+  #greatings {
+    font-family: "Crete Round", serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 82px;
+    letter-spacing: 0;
+    text-align: left;
+  }
+
+  #hero {
+    font-family: "Inter", serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0;
+    text-align: left;
+  }
+
+  #invitation {
+    font-family: "Inter", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0;
+    text-align: left;
+  }
+
+  /* ABOUT SECOND MEDIA QUERIE */
+  .about-me {
+    max-width: 40%;
+  }
+
+  .about-container {
+    background-position: 100% 50%;
+  }
+
+  /* CARDS SECOND MEDIA QUERIE */
+
+  #post-Stories {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .Stories-section {
+    margin-left: 24px;
+  }
+
+  .post-img {
+    height: 448px;
+    width: 684px;
+  }
+
+  .grid-cards-container {
+    display: grid;
+    grid-template-rows: 1fr repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .cards {
+    padding-right: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+  }
+
+  .b2 {
+    display: none;
+  }
+
+  #card1 {
+    grid-area: 2/1/2/1;
+    background-image: url(https://github.com/andgarzonmal/Portfolio/blob/desktop/images/bg-card-1.png?raw=true);
+    background-size: 100% 100%;
+  }
+
+  #card2 {
+    grid-area: 2/2/2/2;
+  }
+
+  #card3 {
+    grid-area: 2/3/3/3;
+  }
+
+  #card4 {
+    grid-area: 3/1/3/1;
+  }
+
+  #card5 {
+    grid-area: 3/2/3/3;
+  }
+
+  #card6 {
+    grid-area: 3/3/3/3;
+  }
+}
+
+/* ##################
   ####################
-  ####################*/
+  #################### */
