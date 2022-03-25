@@ -577,8 +577,13 @@ footer {
     line-height: 20px;
     letter-spacing: 0;
     text-align: center;
-    padding-left: 75px;
+    padding-left: 11.5%;
   }
+  
+  .nav-iconos {
+    padding-right: 8%;
+  }
+
 
   /* PRESENTATION MEDIA QUERIE */
 
