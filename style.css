@@ -751,7 +751,7 @@ footer {
     flex-direction: column-reverse;
   }
 
-  #card1 h2 {
+  #card1 h3 {
     display: none;
   }
 
