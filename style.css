@@ -19,6 +19,18 @@ body {
 
 /* Header styling */
 
+.display-my-menu{
+  display:flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  background: #3C3A39;
+  ;
+ }
+
 .nav {
   display: flex;
   flex-direction: row;
@@ -33,18 +45,20 @@ body {
 }
 
 .header {
-  display: flex;
+  display: none;
   justify-content: space-between;
   list-style: none;
   align-items: center;
   width: 40%;
 }
 
+
 .header li a {
   margin: 0 32px;
   text-decoration: none;
   color: #fff;
 }
+
 
 #name {
   font-family: 'roboto', serif;
@@ -54,8 +68,12 @@ body {
   text-decoration: none;
 }
 
-.desktop {
-  display: none;
+
+#menu {
+  background: none;
+  border: none;
+  margin-right: 50px;
+  cursor: pointer;
 }
 
 /* self presentation styling */
@@ -551,6 +569,11 @@ footer {
 
 @media screen and (min-width: 768px) {
   /* NAV MEDIA QUERIE */
+  
+  .display-my-menu {
+    display: none;
+  }
+
   .desktop {
     display: contents;
     font-family: 'Inter', serif;
@@ -564,6 +587,14 @@ footer {
 
   .phone {
     display: none;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    width: 40%;
   }
 
   .header li {
