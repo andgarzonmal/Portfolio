@@ -29,11 +29,14 @@ https://andgarzonmal.github.io/Portfolio/
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/sundaystanley56)
 
-👤 **Lucas Rodrigues**
 
-- GitHub: [@githubhandle](https://github.com/lucas-crodrigues)
-- Twitter: [@twitterhandle](https://twitter.com/lcrodrigues58)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/lucascostarodrigues/)
+👤 **Olamarx**
+
+- GitHub: [@githubhandle]
+- Twitter: [@twitterhandle]
+- LinkedIn: [LinkedIn]
+
+
 
 ## Show your support
 
