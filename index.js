@@ -6,9 +6,9 @@ const navElements =document.querySelectorAll(".toggle")
 const closeMenu = document.querySelector('.clear')
 // const side = document.querySelector('.side')
 
-closeMenu.addEventListener('click', () => {
-  side.classList.remove('clear');
-});
+// closeMenu.addEventListener('click', () => {
+//   side.classList.remove('clear');
+// });
 
 
 function displayMenu() {
@@ -29,3 +29,8 @@ menu.addEventListener("click", () => {
   addLines();
 });
 
+function closeMenu() {
+  listComponent.classList.remove("display-my-menu");
+  listComponent.classList.add("header");
+}
+closeMenu.addEventListener('click', closeMenu)
