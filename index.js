@@ -3,6 +3,13 @@ const navIcons = document.querySelector(".nav-iconos");
 const listComponent = document.querySelector(".header");
 const navElements =document.querySelectorAll(".toggle")
 
+const closeMenu = document.querySelector('.clear')
+// const side = document.querySelector('.side')
+
+closeMenu.addEventListener('click', () => {
+  side.classList.remove('clear');
+});
+
 
 function displayMenu() {
   listComponent.classList.add("display-my-menu");
