@@ -29,8 +29,8 @@ menu.addEventListener("click", () => {
   addLines();
 });
 
-function closeMenu() {
+function close() {
   listComponent.classList.remove("display-my-menu");
   listComponent.classList.add("header");
 }
-closeMenu.addEventListener('click', closeMenu)
+closeMenu.addEventListener('click', close);
