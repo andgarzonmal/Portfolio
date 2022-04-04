@@ -24,7 +24,7 @@ body {
   width: 100%;
 }
 
-.clear-btn{
+.clear-btn {
   background: none;
   border: none;
   float: right;
@@ -32,41 +32,41 @@ body {
 
 .clear {
   text-align: end;
-  margin: 15px 0px;
-  color: #67798E;
+  margin: 15px 0;
+  color: #67798e;
 }
 
-.display-my-menu{
-  display:flex;
+.display-my-menu {
+  display: flex;
   flex-direction: column;
   position: absolute;
   width: 100%;
   left: 0;
   top: 0;
   height: 100vh;
-  background: #3C3A39;
- }
+  background: #3c3a39;
+}
 
- .display-my-menu li {
-  margin:  10px 24px;
+.display-my-menu li {
+  margin: 10px 24px;
   list-style: none;
   color: #fff;
- }
+}
 
- .display-my-menu li a {
+.display-my-menu li a {
   text-decoration: none;
-  font-family: "Inter" serif;
+  font-family: "Inter", serif;
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
-  color: #fff5e1
- }
+  color: #fff5e1;
+}
 
- .nav-iconos {
-   display: none;
- }
+.nav-iconos {
+  display: none;
+}
 
 .nav {
   display: flex;
@@ -89,13 +89,11 @@ body {
   width: 40%;
 }
 
-
 .header li a {
   margin: 0 32px;
   text-decoration: none;
   color: #fff;
 }
-
 
 #name {
   font-family: 'roboto', serif;
@@ -104,7 +102,6 @@ body {
   margin-left: 24px;
   text-decoration: none;
 }
-
 
 #menu {
   background: none;
@@ -606,9 +603,10 @@ footer {
 
 @media screen and (min-width: 768px) {
   /* NAV MEDIA QUERIE */
-  
-  .nav-iconos{
+
+  .nav-iconos {
     display: inline-block;
+    padding-right: 8%;
   }
 
   .clear {
@@ -673,9 +671,6 @@ footer {
     }
   }
 
-  .nav-iconos {
-    padding-right: 8%;
-  }
 
   /* PRESENTATION MEDIA QUERIE */
 
