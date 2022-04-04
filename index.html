@@ -22,27 +22,30 @@
     <!-- Header section -->
 
     <header>
-      <nav class="nav">
+      <nav class="nav" id="nav">
         <a href="#" id="name">Andrés Garzón</a>
+        <button id="menu" class="phone">
+          <i class="material-icons">menu</i>
+        </button>
         <div class="nav-iconos">
           <ul class="header">
             <li>
-              <a href="" class="header-btn desktop">Portfolio</a>
+              <button class="clear-btn">
+                <i class="material-icons clear">clear</i>
+              </button>
             </li>
             <li>
-              <a href="" class="header-btn desktop">About</a>
+              <a href="#portfolio" class="header-btn desktop toggle">Portfolio</a>
             </li>
             <li>
-              <a href="" class="header-btn desktop">Contact</a>
+              <a href="#about" class="header-btn desktop toggle">About</a>
+            </li>
+            <li>
+              <a href="#contact" class="header-btn desktop toggle" >Contact</a>
             </li>
             <li id=".menu" class="desktop">
               <a href="#">
                 <i class="material-icons mail">mail_outline</i>
-              </a>
-            </li>
-            <li id="menu" class="phone">
-              <a href="#">
-                <i class="material-icons">menu</i>
               </a>
             </li>
           </ul>
@@ -101,7 +104,7 @@
 
     <!--Recent works section-->
 
-    <section class="works">
+    <section class="works" id="portfolio">
       <header class="work-header">
         <h2 class="My-Works-Titles">My Recent Works</h2>
         <hr class="hr"/>
@@ -279,7 +282,9 @@
       </article>
     </section>
 
-    <section class="about">
+    <!-- about section -->
+
+    <section class="about" id="about">
       <article class="about-container">
         <div class="about-me">
           <h2 class="myself">About me</h2>
@@ -332,7 +337,7 @@
 
     <!-- form section -->
 
-    <section class="form-container">
+    <section class="form-container" id="contact">
       <h2 class="form-header">
         I'm always interested in hearing about new projects, so if you'd like
         to chat please get in touch.
@@ -404,5 +409,6 @@
       </ul>
       <hr class="line-break" />
     </footer>
+    <script src="./index.js"></script>
   </body>
 </html>
