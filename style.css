@@ -19,6 +19,11 @@ body {
 
 /* Header styling */
 
+.clear {
+  text-align: end;
+  margin: 15px;
+}
+
 .display-my-menu{
   display:flex;
   flex-direction: column;
@@ -28,7 +33,27 @@ body {
   top: 0;
   height: 100vh;
   background: #3C3A39;
-  ;
+ }
+
+ .display-my-menu li {
+  margin:  10px 24px;
+  list-style: none;
+  color: #fff;
+ }
+
+ .display-my-menu li a {
+  text-decoration: none;
+  font-family: "Inter" serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff5e1
+ }
+
+ .nav-iconos {
+   display: none;
  }
 
 .nav {
@@ -72,7 +97,7 @@ body {
 #menu {
   background: none;
   border: none;
-  margin-right: 50px;
+  margin-right: 24px;
   cursor: pointer;
 }
 
@@ -570,6 +595,14 @@ footer {
 @media screen and (min-width: 768px) {
   /* NAV MEDIA QUERIE */
   
+  .nav-iconos{
+    display: contents;
+  }
+
+  .clear {
+    display: none;
+  }
+
   .display-my-menu {
     display: none;
   }
