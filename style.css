@@ -18,10 +18,22 @@ body {
 }
 
 /* Header styling */
+.pop-menu-line {
+  background-color: #6f6c6b;
+  height: 0.5px;
+  width: 100%;
+}
+
+.clear-btn{
+  background: none;
+  border: none;
+  float: right;
+}
 
 .clear {
   text-align: end;
-  margin: 15px;
+  margin: 15px 0px;
+  color: #67798E;
 }
 
 .display-my-menu{
@@ -596,7 +608,7 @@ footer {
   /* NAV MEDIA QUERIE */
   
   .nav-iconos{
-    display: contents;
+    display: inline-block;
   }
 
   .clear {
