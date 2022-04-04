@@ -2,14 +2,11 @@ const menu = document.querySelector("#menu");
 const navIcons = document.querySelector(".nav-iconos");
 const listComponent = document.querySelector(".header");
 const navElements =document.querySelectorAll(".toggle")
+const closeMenu = document.querySelector('.clear');
 
-const closeMenu = document.querySelector('.clear')
-// const side = document.querySelector('.side')
-
-// closeMenu.addEventListener('click', () => {
-//   side.classList.remove('clear');
-// });
-
+navElements[0].insertAdjacentHTML("afterend", '<div class="pop-menu-line"></div>');
+navElements[1].insertAdjacentHTML("afterend", '<div class="pop-menu-line"></div>');
+navElements[2].insertAdjacentHTML("afterend", '<div class="pop-menu-line"></div>');
 
 function displayMenu() {
   listComponent.classList.add("display-my-menu");
@@ -18,19 +15,18 @@ function displayMenu() {
   navIcons. style. display = "contents";
 }
 
-function addLines() {
-  for(let i=0; i<navElements.length; i++) {
-    navElements[i].insertAdjacentHTML("afterend", '<hr/>');
-    }
-}
-
-menu.addEventListener("click", () => {
-  displayMenu();
-  addLines();
-});
-
-function close() {
+function hideMenu() {
   listComponent.classList.remove("display-my-menu");
   listComponent.classList.add("header");
 }
-closeMenu.addEventListener('click', close);
+
+
+navElements[0].addEventListener("click", hideMenu)
+navElements[1].addEventListener("click", hideMenu)
+navElements[2].addEventListener("click", hideMenu)
+
+
+menu.addEventListener("click", displayMenu);
+
+
+closeMenu.addEventListener('click', hideMenu);
