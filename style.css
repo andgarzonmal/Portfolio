@@ -47,6 +47,10 @@ body {
   background: #3c3a39;
 }
 
+.toggle {
+  padding-left: 4%;
+}
+
 .display-my-menu li {
   margin: 10px 24px;
   list-style: none;
@@ -670,7 +674,6 @@ footer {
       color: #8993a4;
     }
   }
-
 
   /* PRESENTATION MEDIA QUERIE */
 
