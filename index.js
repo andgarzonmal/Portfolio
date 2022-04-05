@@ -27,3 +27,59 @@ navElements[2].addEventListener('click', hideMenu);
 menu.addEventListener('click', displayMenu);
 
 closeMenu.addEventListener('click', hideMenu);
+
+// cards objects
+
+const myProjects = [{
+  tittle: "Multi-Post Stories",
+  tech: ["Css", "html", "bootstrap", "Ruby"],
+  image: "./images/Stories.png",
+  descriptionWhenOpen: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+  descriptionWhenClose: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+  seeLive: "#",
+  seeSource: "#",
+  seeProject: "#"
+},
+
+{
+  tittle: 'Multi Post Stories',
+  tech: ['html', 'bootstrap', 'ruby on rails'],
+  image: '',
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+  seeLive: '#',
+  seeSource: '#',
+},
+{
+  tittle: 'Multi Post Stories',
+  tech: ['html', 'bootstrap', 'ruby on rails'],
+  image: '',
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+  seeLive: '#',
+  seeSource: '#',
+},
+{
+  tittle: 'Multi Post Stories',
+  tech: ['html', 'bootstrap', 'ruby on rails'],
+  image: '',
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+  seeLive: '#',
+  seeSource: '#',
+},
+{
+  tittle: 'Multi Post Stories',
+  tech: ['html', 'bootstrap', 'ruby on rails'],
+  image: '',
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+  seeLive: '#',
+  seeSource: '#',
+},
+{
+  tittle: 'Multi Post Stories',
+  tech: ['html', 'bootstrap', 'ruby on rails'],
+  image: '',
+  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+  seeLive: '#',
+  seeSource: '#',
+},]
+
+
