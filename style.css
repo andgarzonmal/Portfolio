@@ -81,7 +81,6 @@ body {
   background-color: #3c3a39;
   color: #fff;
   padding: 10px 0;
-  position: sticky;
   width: 100vw;
 }
 
@@ -603,6 +602,41 @@ footer {
 
 .m {
   margin-right: 0;
+}
+
+.popup-container {
+  z-index: 2;
+  position: fixed;
+  width:100%;
+  height: 100vh;
+  top:0;
+  backdrop-filter: blur(4px);
+}
+
+/* POPUP  */
+
+.header-pop-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-clear {
+  background: none;
+  border: none;
+  margin-right: 20px;
+}
+
+.clear-pop {
+  color: #6f6c6b;
+}
+
+.background-popup {
+  margin: 112px 142px;
+  background-color: white;
+  height: 75vh;
+  border: 0.5px solid rgb(202, 195, 195);
+  padding: 24px;
 }
 
 @media screen and (min-width: 768px) {
