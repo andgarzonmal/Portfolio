@@ -30,34 +30,24 @@ closeMenu.addEventListener('click', hideMenu);
 
 // cards objects
 
-const myProjects = [
-  // {
-  //   title: "Multi-Post Stories",
-  //   tech: ["Css", "html", "bootstrap", "Ruby"],
-  //   image: "./images/Stories.png",
-  //   descriptionWhenOpen: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-  //   descriptionWhenClose: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-  //   seeLive: "#",
-  //   seeSource: "#",
-  //   seeProject: "#"
-  // },
+const multyPostSection = {
+    tech: ["Css", "html", "bootstrap", "Ruby"],
+    image: "./images/Stories.png",
+    descriptionWhenOpen: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+    descriptionWhenClose: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    seeLive: "#",
+    seeSource: "#",
+    seeProject: "#"  
+}
 
-  // {
-  //   id: "card1",
-  //   title: 'Multi Post Stories',
-  //   tech: ['html', 'bootstrap', 'ruby on rails'],
-  //   image: '',
-  //   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-  //   seeLive: '#',
-  //   seeSource: '#',
-  // },
+const myProjects = [
   {
     id: "card2",
     title: 'titulo',
     tech: ['html', 'bootstrap', 'ruby on rails'],
     image: '',
     descriptionOpen: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-    descriptionClose: "ashdgajsdhgasjdhg",
+    descriptionClose: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     seeLive: '#',
     seeSource: '#',
   },
@@ -67,7 +57,7 @@ const myProjects = [
     tech: ['html', 'bootstrap', 'ruby on rails'],
     image: '',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-    descriptionClose:"hkdjahksjdhaksjhd",
+    descriptionClose:"A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     seeLive: '#',
     seeSource: '#',
   },
@@ -76,8 +66,8 @@ const myProjects = [
     title: 'Post Stories',
     tech: ['html', 'bootstrap', 'ruby on rails'],
     image: '',
-    descriptionClose:"hkdjahksjdhaksjhd",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+    descriptionClose:"A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     seeLive: '#',
     seeSource: '#',
   },
@@ -86,7 +76,7 @@ const myProjects = [
     title: 'Multi Post',
     tech: ['html', 'bootstrap', 'ruby on rails'],
     image: '',
-    descriptionClose:"hkdjahksjdhaksjhd",
+    descriptionClose:"A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     seeLive: '#',
     seeSource: '#',
@@ -96,7 +86,7 @@ const myProjects = [
     title: 'Multi Post Stories',
     tech: ['html', 'bootstrap', 'ruby on rails'],
     image: '',
-    descriptionClose:"hkdjahksjdhaksjhd",
+    descriptionClose:"A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     seeLive: '#',
     seeSource: '#',
@@ -110,15 +100,15 @@ storiesSection.innerHTML = `
     <div class="img">
       <img
         class="post-img"
-        src="${myProjects[0].image}"
+        src="${multyPostSection.image}"
         id="Stories-image"
         alt="Stories image"
       />
     </div>
     <div class="Stories-section">
-      <h3 class="Stories-title">${myProjects[0].title}</h3>
+      <h3 class="Stories-title">${multyPostSection.title}</h3>
       <p>
-      ${myProjects[0].descriptionWhenClose}
+      ${multyPostSection.descriptionWhenClose}
       </p>
       <div class="post-Stories-caregories">
         <ul class="categories">
@@ -166,18 +156,58 @@ storiesSection.innerHTML = `
 
 const presentation = document.querySelector(".presentation") 
 
-let PopUp = ({title})=>`<div>${title}</div>`
-
+let PopUp = ({title})=>`
+  <section class="popup-container">
+    <div class="background-popup">
+      <header class=header-pop-container>
+        <h2>tituloasdasdasdasd</h2>
+        <button class="btn-clear">
+          <i class="material-icons clear-pop">clear</i>
+        </button>
+      </header>
+      <ul class="card-list">
+        <li class="list-item"
+          ><a class="list-button" href="#">html</a>
+        </li>
+        <li class="list-item"
+          ><a class="list-button" href="#">bootstrap</a>
+        </li>
+        <li class="list-item">
+          <a class="list-button" href="#">Ruby</a>
+        </li>
+      </ul>
+      <div class="cards-info">
+        <img src="/Portfolio/images/SnapshootPortfolio.png" alt="project image">
+        <div class="details">
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.
+          </p> 
+          <ul>
+            <li>
+              <button>
+                <a href="#">See Live</a>
+                <img src="./images/Icon-Export.png" alt="Export icon">
+              </button>
+            </li>
+            <li>
+              <button>
+                <a href="#">See Source</a>
+                <img src="./images/github-popup.png" alt="github popup icon">
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>`
 
 let displayPopUp = (object) => () => presentation.insertAdjacentHTML('afterend', PopUp(object));
 
-
-
 myProjects.forEach((object) => {
-  const card1 = document.querySelector("#card1") 
+  const card1 = document.querySelector("#card1"); 
   card1.insertAdjacentHTML('afterend', Card(object));
-  let currentCard = document.querySelector(`#${object.id}`)
-  currentCard.addEventListener("click", displayPopUp(object))
+  let currentCard = document.querySelector(`#${object.id}`);
+  currentCard.addEventListener("click", displayPopUp(object));
 })
 
 
