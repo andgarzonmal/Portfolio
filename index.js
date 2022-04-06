@@ -152,47 +152,46 @@ storiesSection.innerHTML = `
   </button>
 </div>`
 
-
-
 const presentation = document.querySelector(".presentation") 
 
+
 let PopUp = ({title})=>`
-  <section class="popup-container">
+  <section class="popup-container" id="popup-container">
     <div class="background-popup">
       <header class=header-pop-container>
         <h2>tituloasdasdasdasd</h2>
-        <button class="btn-clear">
+        <button class="btn-clear" id="btn-clear">
           <i class="material-icons clear-pop">clear</i>
         </button>
       </header>
-      <ul class="card-list">
-        <li class="list-item"
-          ><a class="list-button" href="#">html</a>
+      <ul class="card-list-pop">
+        <li class="list-pup-item"
+          ><a class="list-pop-button" href="#">html</a>
         </li>
-        <li class="list-item"
-          ><a class="list-button" href="#">bootstrap</a>
+        <li class="list-pup-item"
+          ><a class="list-pop-button" href="#">bootstrap</a>
         </li>
-        <li class="list-item">
-          <a class="list-button" href="#">Ruby</a>
+        <li class="list-pup-item">
+          <a class="list-pop-button" href="#">Ruby</a>
         </li>
       </ul>
       <div class="cards-info">
-        <img src="/Portfolio/images/SnapshootPortfolio.png" alt="project image">
+        <img class="pop-image" src="/Portfolio/images/SnapshootPortfolio.png" alt="project image">
         <div class="details">
-          <p>
+          <p class="text-pop">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.
           </p> 
-          <ul>
-            <li>
-              <button>
-                <a href="#">See Live</a>
-                <img src="./images/Icon-Export.png" alt="Export icon">
+          <ul class="see-more">
+            <li class="see-more-section">
+              <button class = "see-live">
+                <a class = "pop-a-tag" href="#">See Live</a>
+                <img class="pop-image-li" src="./images/Icon-Export.png" alt="Export icon">
               </button>
             </li>
-            <li>
-              <button>
-                <a href="#">See Source</a>
-                <img src="./images/github-popup.png" alt="github popup icon">
+            <li class="see-more-section">
+              <button class = "see-source">
+                <a class = "pop-a-tag" href="#">See Source</a>
+                <img class="pop-image-li" src="./images/github-popup.png" alt="github popup icon">
               </button>
             </li>
           </ul>
@@ -201,14 +200,28 @@ let PopUp = ({title})=>`
     </div> 
   </section>`
 
-let displayPopUp = (object) => () => presentation.insertAdjacentHTML('afterend', PopUp(object));
 
-myProjects.forEach((object) => {
+const closePop = () => {
+  const popUpContainer = document.getElementById("popup-container");
+  popUpContainer.remove();
+}
+
+let displayPopUp = object => () => {
+  presentation.insertAdjacentHTML('afterend', PopUp(object));
+  const clearPop = document.getElementById("btn-clear") 
+  clearPop.addEventListener("click", closePop)
+}
+
+myProjects.forEach(object => {
   const card1 = document.querySelector("#card1"); 
   card1.insertAdjacentHTML('afterend', Card(object));
   let currentCard = document.querySelector(`#${object.id}`);
   currentCard.addEventListener("click", displayPopUp(object));
 })
+
+
+
+
 
 
 
