@@ -31,6 +31,7 @@ closeMenu.addEventListener('click', hideMenu);
 // cards objects
 
 const multyPostSection = {
+    title: "Multy-Post Stories",
     tech: ["Css", "html", "bootstrap", "Ruby"],
     image: "./images/Stories.png",
     descriptionWhenOpen: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
@@ -38,6 +39,17 @@ const multyPostSection = {
     seeLive: "#",
     seeSource: "#",
     seeProject: "#"  
+}
+
+const card1 = {
+  id: "card2",
+    title: 'titulo',
+    tech: ['html', 'bootstrap', 'ruby on rails'],
+    image: '',
+    descriptionOpen: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+    descriptionClose: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    seeLive: '#',
+    seeSource: '#',
 }
 
 const myProjects = [
@@ -125,32 +137,55 @@ storiesSection.innerHTML = `
             <a class="Categorie-button" href="#">Ruby</a>
           </li>
         </ul>
-        <button class="button-Stories but" type="button">
+        <button class="button-Stories" id="button-stories" type="button">
           <span>See project</span>
         </button>
       </div>
     </div> 
  `
+   let postStorySection = document.getElementById("post-Stories")
+
+   postStorySection.insertAdjacentHTML('afterend', `  
+  <div class="card-photo-container cards" id="card1" tabindex="0">
+    <h3 class="card-title">Profesional Art Printing Data</h3>
+    <p class="card-description">
+      A daily selection of privately personalized reads; no accounts or
+      sign-ups required. has been the industry's standard</p>
+    <ul class="card-list">
+      <li class="list-item"
+        ><a class="list-button" href="#">html</a>
+      </li>
+      <li class="list-item"
+        ><a class="list-button" href="#">bootstrap</a>
+      </li>
+      <li class="list-item">
+        <a class="list-button" href="#">Ruby</a>
+      </li>
+    </ul>
+    <button class="button-Stories b1 but" type="button">
+      <span>See project</span>
+    </button>
+  </div>`);
 
  let Card = ({id, title, descriptionClose}) => `
- <div class="card-photo-container cards animate" id=${id} tabindex="0">
-  <h3 class="card-title  d1">${title}</h3>
-  <p class="card-description">${descriptionClose}</p>
-  <ul class="card-list">
-    <li class="list-item">
-      <a class="list-button" href="#">html</a>
-    </li>
-    <li class="list-item">
-      <a class="list-button" href="#">bootstrap</a>
-    </li>
-    <li class="list-item"
-      ><a class="list-button" href="#">Ruby</a>
-    </li>
-  </ul>
-  <button class="button-Stories b2"  type="button">
-    <span>See project</span>
-  </button>
-</div>`
+  <div class="card-photo-container cards animate" id=${id} tabindex="0">
+    <h3 class="card-title  d1">${title}</h3>
+    <p class="card-description">${descriptionClose}</p>
+    <ul class="card-list">
+      <li class="list-item">
+        <a class="list-button" href="#">html</a>
+      </li>
+      <li class="list-item">
+        <a class="list-button" href="#">bootstrap</a>
+      </li>
+      <li class="list-item"
+        ><a class="list-button" href="#">Ruby</a>
+      </li>
+    </ul>
+    <button class="button-Stories b2"  type="button">
+      <span>See project</span>
+    </button>
+  </div>`
 
 const presentation = document.querySelector(".presentation") 
 
@@ -159,7 +194,7 @@ let PopUp = ({title})=>`
   <section class="popup-container" id="popup-container">
     <div class="background-popup">
       <header class=header-pop-container>
-        <h2>tituloasdasdasdasd</h2>
+        <h2>${title}</h2>
         <button class="btn-clear" id="btn-clear">
           <i class="material-icons clear-pop">clear</i>
         </button>
@@ -201,6 +236,8 @@ let PopUp = ({title})=>`
   </section>`
 
 
+
+
 const closePop = () => {
   const popUpContainer = document.getElementById("popup-container");
   popUpContainer.remove();
@@ -209,6 +246,7 @@ const closePop = () => {
 let displayPopUp = object => () => {
   presentation.insertAdjacentHTML('afterend', PopUp(object));
   const clearPop = document.getElementById("btn-clear") 
+  
   clearPop.addEventListener("click", closePop)
 }
 
@@ -218,6 +256,11 @@ myProjects.forEach(object => {
   let currentCard = document.querySelector(`#${object.id}`);
   currentCard.addEventListener("click", displayPopUp(object));
 })
+
+
+const multyPCard = document.getElementById("button-stories")
+multyPCard.addEventListener("click", displayPopUp(multyPostSection))
+
 
 
 
