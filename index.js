@@ -262,17 +262,26 @@ buttons.addEventListener('click', displayPopUp(card1));
 
 
 // form validation
-const throwError = document.querySelector('.error-message')
+const throwError = document.querySelector('#error')
 const form = document.querySelector('.form')
-const inputEmail = document.querySelector('.form-li')
+const inputEmail = document.querySelector('#email')
+
 
 form.addEventListener('submit', (event) => {
-  event.preventDefault();
-  if (inputEmail.value !== inputEmail.value.toLowerCase()){
-    throwError.style.display = "block";
-    throwError.textContent = "Please use only lower case for your email";
-    throwError.style.color = "red";
-  } else {
-    form.submit();
-  };
+  if(inputEmail.value !== inputEmail.value.toLowerCase()){
+    event.preventDefault();
+    throwError.textContent="Please use lower case on your email input"
+  } 
 });
+
+inputEmail.addEventListener("input", (event) => {
+  if(event.target.value !== inputEmail.value.toLowerCase()){
+    throwError.textContent="Please use lower case on your email input"
+  } 
+})
+
+
+
+
+
+
