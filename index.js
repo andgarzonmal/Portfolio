@@ -258,3 +258,15 @@ const buttons = document.getElementById('b1');
 const multyPCard = document.getElementById('button-stories');
 multyPCard.addEventListener('click', displayPopUp(multyPostSection));
 buttons.addEventListener('click', displayPopUp(card1));
+
+// form validation
+const throwError = document.querySelector('#error');
+const form = document.querySelector('.form');
+const inputEmail = document.querySelector('#email');
+
+form.addEventListener('submit', (event) => {
+  if (inputEmail.value !== inputEmail.value.toLowerCase()) {
+    event.preventDefault();
+    throwError.textContent = 'Please use lower case on your email input';
+  }
+});
