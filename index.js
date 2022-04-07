@@ -31,7 +31,7 @@ closeMenu.addEventListener('click', hideMenu);
 // cards objects
 
 const multyPostSection = {
-    title: "Multy-Post Stories",
+    title: "kjdfbiskjfksabjdkfjsdkfjbskb",
     tech: ["Css", "html", "bootstrap", "Ruby"],
     image: "./images/Stories.png",
     descriptionWhenOpen: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
@@ -42,7 +42,7 @@ const multyPostSection = {
 }
 
 const card1 = {
-  id: "card2",
+    id: "card2",
     title: 'titulo',
     tech: ['html', 'bootstrap', 'ruby on rails'],
     image: '',
@@ -103,7 +103,6 @@ const myProjects = [
     seeLive: '#',
     seeSource: '#',
   },
-
 ]
 
 const storiesSection = document.querySelector("#post-Stories");
@@ -162,11 +161,11 @@ storiesSection.innerHTML = `
         <a class="list-button" href="#">Ruby</a>
       </li>
     </ul>
-    <button class="button-Stories b1 but" type="button">
+    <button class="button-Stories b1" id="b1" type="button">
       <span>See project</span>
     </button>
   </div>`);
-
+ 
  let Card = ({id, title, descriptionClose}) => `
   <div class="card-photo-container cards animate" id=${id} tabindex="0">
     <h3 class="card-title  d1">${title}</h3>
@@ -246,7 +245,6 @@ const closePop = () => {
 let displayPopUp = object => () => {
   presentation.insertAdjacentHTML('afterend', PopUp(object));
   const clearPop = document.getElementById("btn-clear") 
-  
   clearPop.addEventListener("click", closePop)
 }
 
@@ -257,10 +255,10 @@ myProjects.forEach(object => {
   currentCard.addEventListener("click", displayPopUp(object));
 })
 
-
-const multyPCard = document.getElementById("button-stories")
-multyPCard.addEventListener("click", displayPopUp(multyPostSection))
-
+const buttons = document.getElementById("b1");
+const multyPCard = document.getElementById("button-stories");
+multyPCard.addEventListener("click", displayPopUp(multyPostSection));
+buttons.addEventListener("click", displayPopUp(card1));
 
 
 
