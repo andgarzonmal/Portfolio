@@ -184,11 +184,16 @@ body {
 }
 
 /* cards secction styling */
+
+.post-img{
+  width: -webkit-fill-available;
+}
+
 .grid-cards-container {
   display: grid;
   gap: 20px;
   padding-bottom: 120px;
-  grid-template-rows: 1.5fr 1fr;
+  grid-template-rows: 1.53fr 1fr;
 }
 
 #post-Stories {
@@ -616,19 +621,11 @@ footer {
   background: rgba(0, 0, 0, 0.7);
 }
 
-
-.background-popup {
-  margin: 85px 142px;
-  background-color: white;
-  height: auto;
-  border: 0.5px solid rgb(202, 195, 195);
-  padding: 24px;
-}
-
 .header-pop-container{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 35px;
 }
 
 .btn-clear {
@@ -638,12 +635,13 @@ footer {
 
 .card-list-pop {
   display: flex;
-  margin: 12px 0px 15px 0px;
+  margin: 0px;
+  margin-bottom:20px;
+  gap:5px
 }
 
 .pop-image {
-  width:70%;
-  
+ width: -webkit-fill-available;; 
 }
 
 .text-pop {
@@ -654,18 +652,22 @@ footer {
   letter-spacing: 0em;
   text-align: left;
   color:#344563;
+  overflow: hidden;
+  height: 290px;
+  
 }
 
 .details {
-  margin-left: 33px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin: 24px 0px;
 }
 
 .see-more {
   display: flex;
   gap: 7px;
+  margin-top: 24px;
 }
 
 .see-more-section {
@@ -695,20 +697,20 @@ footer {
   color:#dfe1e6;
   font-size: 16px;
 }
-  
-@media screen and (min-width: 768px) {
-  
-/* POPUP MEDIA QUERIE*/
 
-.clear-pop {
-  color: #6f6c6b;
+.background-popup {
+  margin: 30px 24px;
+  background-color: white;
+  height: 93vh;
+  border: 0.5px solid rgb(202, 195, 195);
+  padding: 24px;
 }
 
 .list-pup-item {
   border: 0.5px solid rgba(177, 172, 172, 0.704);
   list-style: none;
-  margin: 10px 10px 12px 0px;
-  padding: 10px 12px;
+  margin: 0px;
+  padding: 5px 4px;
 }
 
 .list-pop-button {
@@ -717,13 +719,44 @@ footer {
   color: black;
 }
 
-.cards-info {
-  display: flex;
+.clear-pop {
+  color: #6f6c6b;
 }
 
-.details {
-  width: 50%;
-}
+@media screen and (min-width: 768px) {
+  
+/* POPUP MEDIA QUERIE*/
+  
+  .background-popup {
+    margin: 85px 142px;
+    background-color: white;
+    height: auto;
+    border: 0.5px solid rgb(202, 195, 195);
+    padding: 24px;
+  }
+  
+  .card-list-pop {
+    display: flex;
+    margin: 12px 0px 15px 0px;
+    gap:10px;
+  }
+
+  .cards-info {
+    display: flex;
+  }
+
+  .list-pup-item {
+    border: 0.5px solid rgba(177, 172, 172, 0.704);
+    list-style: none;
+    margin: 0px;
+    padding: 10px 12px;
+  }
+
+  .details {
+    width: 50%;
+    margin:0px;
+    padding-left: 24px;
+  }
 
   /* NAV MEDIA QUERIE */
 
@@ -1087,6 +1120,7 @@ footer {
 }
 
 @media screen and (min-width: 1025px) {
+
   .presentation {
     background-position: 100% 100%;
   }
@@ -1192,3 +1226,4 @@ footer {
     grid-area: 3/3/3/3;
   }
 }
+
