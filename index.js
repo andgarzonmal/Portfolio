@@ -31,10 +31,10 @@ closeMenu.addEventListener('click', hideMenu);
 // cards objects
 
 const multyPostSection = {
-    title: "kjdf",
+    title: "Multi Post Stories",
     tech: ["Css", "html", "bootstrap", "Ruby"],
     image: "./images/Stories.png",
-    descriptionWhenOpen: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+    descriptionOpen: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     descriptionWhenClose: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     seeLive: "#",
     seeSource: "#",
@@ -43,7 +43,7 @@ const multyPostSection = {
 
 const card1 = {
     id: "card2",
-    title: 'titulo',
+    title: 'Profesional Art Printing Data',
     tech: ['html', 'bootstrap', 'ruby on rails'],
     image: '',
     descriptionOpen: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
@@ -68,7 +68,7 @@ const myProjects = [
     title: 'tories',
     tech: ['html', 'bootstrap', 'ruby on rails'],
     image: '',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+    descriptionOpen: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     descriptionClose:"A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     seeLive: '#',
     seeSource: '#',
@@ -78,7 +78,7 @@ const myProjects = [
     title: 'Post Stories',
     tech: ['html', 'bootstrap', 'ruby on rails'],
     image: '',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+    descriptionOpen: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     descriptionClose:"A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     seeLive: '#',
     seeSource: '#',
@@ -89,7 +89,7 @@ const myProjects = [
     tech: ['html', 'bootstrap', 'ruby on rails'],
     image: '',
     descriptionClose:"A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+    descriptionOpen: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     seeLive: '#',
     seeSource: '#',
   },
@@ -99,7 +99,7 @@ const myProjects = [
     tech: ['html', 'bootstrap', 'ruby on rails'],
     image: '',
     descriptionClose:"A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+    descriptionOpen: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     seeLive: '#',
     seeSource: '#',
   },
@@ -124,16 +124,16 @@ storiesSection.innerHTML = `
       <div class="post-Stories-caregories">
         <ul class="categories">
           <li class="list">
-            <a class="Categorie-button" href="#">Css</a>
+            <a class="Categorie-button" href="#">${multyPostSection.tech[0]}</a>
           </li>
           <li class="list">
-            <a class="Categorie-button" href="#">html</a>
+            <a class="Categorie-button" href="#">${multyPostSection.tech[1]}</a>
           </li>
           <li class="list">
-            <a class="Categorie-button" href="#">bootstrap</a>
+            <a class="Categorie-button" href="#">${multyPostSection.tech[2]}</a>
           </li>
           <li class="list">
-            <a class="Categorie-button" href="#">Ruby</a>
+            <a class="Categorie-button" href="#">${multyPostSection.tech[3]}</a>
           </li>
         </ul>
         <button class="button-Stories" id="button-stories" type="button">
@@ -146,19 +146,19 @@ storiesSection.innerHTML = `
 
    postStorySection.insertAdjacentHTML('afterend', `  
   <div class="card-photo-container cards" id="card1" tabindex="0">
-    <h3 class="card-title">Profesional Art Printing Data</h3>
+    <h3 class="card-title">${card1.title}</h3>
     <p class="card-description">
-      A daily selection of privately personalized reads; no accounts or
-      sign-ups required. has been the industry's standard</p>
+     ${card1.descriptionClose}
+    </p>
     <ul class="card-list">
       <li class="list-item"
-        ><a class="list-button" href="#">html</a>
+        ><a class="list-button" href="#">${card1.tech[0]}</a>
       </li>
       <li class="list-item"
-        ><a class="list-button" href="#">bootstrap</a>
+        ><a class="list-button" href="#">${card1.tech[1]}</a>
       </li>
       <li class="list-item">
-        <a class="list-button" href="#">Ruby</a>
+        <a class="list-button" href="#">${card1.tech[2]}</a>
       </li>
     </ul>
     <button class="button-Stories b1" id="b1" type="button">
@@ -166,19 +166,19 @@ storiesSection.innerHTML = `
     </button>
   </div>`);
  
- let Card = ({id, title, descriptionClose}) => `
+ let Card = ({id, title, descriptionClose,tech}) => `
   <div class="card-photo-container cards animate" id=${id} tabindex="0">
     <h3 class="card-title  d1">${title}</h3>
     <p class="card-description">${descriptionClose}</p>
     <ul class="card-list">
       <li class="list-item">
-        <a class="list-button" href="#">html</a>
+        <a class="list-button" href="#">${tech[0]}</a>
       </li>
       <li class="list-item">
-        <a class="list-button" href="#">bootstrap</a>
+        <a class="list-button" href="#">${tech[1]}</a>
       </li>
       <li class="list-item"
-        ><a class="list-button" href="#">Ruby</a>
+        ><a class="list-button" href="#">${tech[2]}</a>
       </li>
     </ul>
     <button class="button-Stories b2"  type="button">
@@ -189,7 +189,7 @@ storiesSection.innerHTML = `
 const presentation = document.querySelector(".presentation") 
 
 
-let PopUp = ({title})=>`
+let PopUp = ({title, descriptionOpen})=>`
   <section class="popup-container" id="popup-container">
     <div class="background-popup">
       <header class=header-pop-container>
@@ -213,7 +213,7 @@ let PopUp = ({title})=>`
         <img class="pop-image" src="/Portfolio/images/SnapshootPortfolio.png" alt="project image">
         <div class="details">
           <p class="text-pop">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.
+            ${descriptionOpen}
           </p> 
           <ul class="see-more">
             <li class="see-more-section">
