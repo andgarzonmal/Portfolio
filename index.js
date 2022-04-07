@@ -31,31 +31,31 @@ closeMenu.addEventListener('click', hideMenu);
 // cards objects
 
 const multyPostSection = {
-    title: "Multi Post Stories",
-    tech: ["Css", "html", "bootstrap", "Ruby"],
-    imagePop: 'https://github.com/andgarzonmal/Portfolio/blob/Pop-up-nav/images/SnapshootPortfolio.png?raw=true',
-    image: "./images/Stories.png",
-    descriptionOpen: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-    descriptionWhenClose: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    seeLive: "#",
-    seeSource: "#",
-    seeProject: "#"  
-}
+  title: 'Multi Post Stories',
+  tech: ['Css', 'html', 'bootstrap', 'Ruby'],
+  imagePop: 'https://github.com/andgarzonmal/Portfolio/blob/Pop-up-nav/images/SnapshootPortfolio.png?raw=true',
+  image: './images/Stories.png',
+  descriptionOpen: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+  descriptionWhenClose: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+  seeLive: '#',
+  seeSource: '#',
+  seeProject: '#',
+};
 
 const card1 = {
-    id: "card2",
-    title: 'Profesional Art Printing Data',
-    tech: ['html', 'bootstrap', 'ruby on rails'],
-    image: '',
-    descriptionOpen: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-    descriptionClose: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    seeLive: '#',
-    seeSource: '#',
-}
+  id: 'card2',
+  title: 'Profesional Art Printing Data',
+  tech: ['html', 'bootstrap', 'ruby on rails'],
+  image: '',
+  descriptionOpen: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+  descriptionClose: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+  seeLive: '#',
+  seeSource: '#',
+};
 
 const myProjects = [
   {
-    id: "card2",
+    id: 'card2',
     title: 'titulo',
     tech: ['html', 'bootstrap', 'ruby on rails'],
     image: '',
@@ -65,48 +65,48 @@ const myProjects = [
     seeSource: '#',
   },
   {
-    id: "card3",
+    id: 'card3',
     title: 'tories',
     tech: ['html', 'bootstrap', 'ruby on rails'],
     image: '',
     descriptionOpen: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-    descriptionClose:"A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    descriptionClose: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     seeLive: '#',
     seeSource: '#',
   },
   {
-    id: "card4",
+    id: 'card4',
     title: 'Post Stories',
     tech: ['html', 'bootstrap', 'ruby on rails'],
     image: '',
     descriptionOpen: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-    descriptionClose:"A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    descriptionClose: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     seeLive: '#',
     seeSource: '#',
   },
   {
-    id: "card5",
+    id: 'card5',
     title: 'Multi Post',
     tech: ['html', 'bootstrap', 'ruby on rails'],
     image: '',
-    descriptionClose:"A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    descriptionClose: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     descriptionOpen: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     seeLive: '#',
     seeSource: '#',
   },
   {
-    id: "card6",
+    id: 'card6',
     title: 'Multi Post Stories',
     tech: ['html', 'bootstrap', 'ruby on rails'],
     image: '',
-    descriptionClose:"A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    descriptionClose: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     descriptionOpen: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     seeLive: '#',
     seeSource: '#',
   },
-]
+];
 
-const storiesSection = document.querySelector("#post-Stories");
+const storiesSection = document.querySelector('#post-Stories');
 
 storiesSection.innerHTML = `
     <div class="img">
@@ -142,10 +142,10 @@ storiesSection.innerHTML = `
         </button>
       </div>
     </div> 
- `
-   let postStorySection = document.getElementById("post-Stories")
+ `;
+const postStorySection = document.getElementById('post-Stories');
 
-   postStorySection.insertAdjacentHTML('afterend', `  
+postStorySection.insertAdjacentHTML('afterend', `  
   <div class="card-photo-container cards" id="card1" tabindex="0">
     <h3 class="card-title">${card1.title}</h3>
     <p class="card-description">
@@ -166,8 +166,10 @@ storiesSection.innerHTML = `
       <span>See project</span>
     </button>
   </div>`);
- 
- let Card = ({id, title, descriptionClose,tech}) => `
+
+const Card = ({
+  id, title, descriptionClose, tech,
+}) => `
   <div class="card-photo-container cards animate" id=${id} tabindex="0">
     <h3 class="card-title  d1">${title}</h3>
     <p class="card-description">${descriptionClose}</p>
@@ -187,10 +189,9 @@ storiesSection.innerHTML = `
     </button>
   </div>`;
 
-const presentation = document.querySelector(".presentation");
+const presentation = document.querySelector('.presentation');
 
-
-let PopUp = ({title, descriptionOpen})=>`
+const PopUp = ({ title, descriptionOpen }) => `
   <section class="popup-container" id="popup-container">
     <div class="background-popup">
       <header class=header-pop-container>
@@ -235,37 +236,25 @@ let PopUp = ({title, descriptionOpen})=>`
     </div> 
   </section>`;
 
-
-
-
 const closePop = () => {
-  const popUpContainer = document.getElementById("popup-container");
+  const popUpContainer = document.getElementById('popup-container');
   popUpContainer.remove();
-}
+};
 
-let displayPopUp = object => () => {
+const displayPopUp = (object) => () => {
   presentation.insertAdjacentHTML('afterend', PopUp(object));
-  const clearPop = document.getElementById("btn-clear") 
-  clearPop.addEventListener("click", closePop)
-}
+  const clearPop = document.getElementById('btn-clear');
+  clearPop.addEventListener('click', closePop);
+};
 
-myProjects.forEach(object => {
-  const card1 = document.querySelector("#card1"); 
+myProjects.forEach((object) => {
+  const card1 = document.querySelector('#card1');
   card1.insertAdjacentHTML('afterend', Card(object));
-  let currentCard = document.querySelector(`#${object.id}`);
-  currentCard.addEventListener("click", displayPopUp(object));
-})
+  const currentCard = document.querySelector(`#${object.id}`);
+  currentCard.addEventListener('click', displayPopUp(object));
+});
 
-const buttons = document.getElementById("b1");
-const multyPCard = document.getElementById("button-stories");
-multyPCard.addEventListener("click", displayPopUp(multyPostSection));
-buttons.addEventListener("click", displayPopUp(card1));
-
-
-
-
-
-
-
-
-
+const buttons = document.getElementById('b1');
+const multyPCard = document.getElementById('button-stories');
+multyPCard.addEventListener('click', displayPopUp(multyPostSection));
+buttons.addEventListener('click', displayPopUp(card1));
