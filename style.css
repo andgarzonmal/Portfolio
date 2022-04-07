@@ -572,6 +572,7 @@ hr.inline {
 .form-li {
   display: flex;
   width: 100%;
+  flex-direction: column;
 }
 
 .footer-container {
@@ -722,7 +723,7 @@ footer {
 }
 
 #error {
-  color:red;
+  color: red;
 }
 
 @media screen and (min-width: 768px) {
