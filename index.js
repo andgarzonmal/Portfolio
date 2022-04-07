@@ -33,6 +33,7 @@ closeMenu.addEventListener('click', hideMenu);
 const multyPostSection = {
     title: "Multi Post Stories",
     tech: ["Css", "html", "bootstrap", "Ruby"],
+    imagePop: 'https://github.com/andgarzonmal/Portfolio/blob/Pop-up-nav/images/SnapshootPortfolio.png?raw=true',
     image: "./images/Stories.png",
     descriptionOpen: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     descriptionWhenClose: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
@@ -184,9 +185,9 @@ storiesSection.innerHTML = `
     <button class="button-Stories b2"  type="button">
       <span>See project</span>
     </button>
-  </div>`
+  </div>`;
 
-const presentation = document.querySelector(".presentation") 
+const presentation = document.querySelector(".presentation");
 
 
 let PopUp = ({title, descriptionOpen})=>`
@@ -219,7 +220,7 @@ let PopUp = ({title, descriptionOpen})=>`
             <li class="see-more-section">
               <button class = "see-live">
                 <a class = "pop-a-tag" href="#">See Live</a>
-                <img class="pop-image-li" src="./images/Icon-Export.png" alt="Export icon">
+                <img class="pop-image-li" src="${multyPostSection.imagePop}" alt="Export icon">
               </button>
             </li>
             <li class="see-more-section">
@@ -232,7 +233,7 @@ let PopUp = ({title, descriptionOpen})=>`
         </div>
       </div>
     </div> 
-  </section>`
+  </section>`;
 
 
 
