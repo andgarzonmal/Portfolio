@@ -211,7 +211,7 @@ let PopUp = ({title, descriptionOpen})=>`
         </li>
       </ul>
       <div class="cards-info">
-        <img class="pop-image" src="/Portfolio/images/SnapshootPortfolio.png" alt="project image">
+        <img class="pop-image" src="${multyPostSection.imagePop}" alt="project image">
         <div class="details">
           <p class="text-pop">
             ${descriptionOpen}
@@ -220,7 +220,7 @@ let PopUp = ({title, descriptionOpen})=>`
             <li class="see-more-section">
               <button class = "see-live">
                 <a class = "pop-a-tag" href="#">See Live</a>
-                <img class="pop-image-li" src="${multyPostSection.imagePop}" alt="Export icon">
+                <img class="pop-image-li" src="./images/Icon-Export.png" alt="Export icon">
               </button>
             </li>
             <li class="see-more-section">

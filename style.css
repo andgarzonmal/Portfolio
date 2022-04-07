@@ -727,6 +727,10 @@ footer {
   
 /* POPUP MEDIA QUERIE*/
   
+  .pop-image {
+    width: 70%; 
+  }
+  
   .background-popup {
     margin: 85px 142px;
     background-color: white;
