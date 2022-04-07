@@ -271,8 +271,3 @@ form.addEventListener('submit', (event) => {
   }
 });
 
-inputEmail.addEventListener('input', (event) => {
-  if (event.target.value !== inputEmail.value.toLowerCase()) {
-    throwError.textContent = 'Please use lower case on your email input';
-  }
-});
