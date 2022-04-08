@@ -270,3 +270,17 @@ form.addEventListener('submit', (event) => {
     throwError.textContent = 'Please use lower case on your email input';
   }
 });
+
+
+
+// Local storage project
+
+const formTag = document.querySelector('#form-validation')
+
+let storeInLocalStorage = {
+  name: '',
+  email: '',
+  comment: '',
+}
+
+console.log(storeInLocalStorage)
