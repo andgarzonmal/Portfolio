@@ -276,11 +276,25 @@ form.addEventListener('submit', (event) => {
 // Local storage project
 
 const formTag = document.querySelector('#form-validation')
+const names = document.querySelector("#names");
+const email = document.querySelector("#email");
+const text = document.querySelector("#text");
 
-let storeInLocalStorage = {
-  name: '',
-  email: '',
-  comment: '',
-}
 
-console.log(storeInLocalStorage)
+// console.log(storeInLocalStorage)
+
+Array.from(formTag.elements).forEach(n => n.addEventListener("input", () => { 
+  let storeInLocalStorage = {
+    name: names.value,
+    email: email.value,
+    comment: text.value,
+  }
+  let localString = JSON.stringify(storeInLocalStorage)
+  localStorage.setItem('client-info', localString);
+}))
+
+let toForm = JSON.parse(localStorage.getItem('client-info'));
+
+names.value = toForm.name
+email.value = toForm.email
+text.value = toForm.comment
