@@ -2,14 +2,14 @@ const menu = document.querySelector('#menu');
 const navIcons = document.querySelector('.nav-iconos');
 const listComponent = document.querySelector('.header');
 const navElements = document.querySelectorAll('.toggle');
-const closeMenu = document.querySelector('.clear');
+const closeMenu = document.querySelector('clear');
 
 navElements[0].insertAdjacentHTML('afterend', '<div class="pop-menu-line"></div>');
 navElements[1].insertAdjacentHTML('afterend', '<div class="pop-menu-line"></div>');
 navElements[2].insertAdjacentHTML('afterend', '<div class="pop-menu-line"></div>');
 
 function displayMenu() {
-  listComponent.classList.add('display-my-menu');
+  listComponent.classList('display-my-menu');
   listComponent.classList.remove('header');
   document.getElementById('.menu').style.display = 'none';
   navIcons.style.display = 'contents';
@@ -266,7 +266,7 @@ const inputEmail = document.querySelector('#email');
 
 form.addEventListener('submit', (event) => {
   if (inputEmail.value !== inputEmail.value.toLowerCase()) {
-    event.preventDefault();
+    e.preventDefault();
     throwError.textContent = 'Please use lower case on your email input';
   }
 });
