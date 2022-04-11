@@ -270,3 +270,28 @@ form.addEventListener('submit', (event) => {
     throwError.textContent = 'Please use lower case on your email input';
   }
 });
+
+// Local storage project
+
+const formTag = document.querySelector('#form-validation');
+const names = document.querySelector('#names');
+const email = document.querySelector('#email');
+const text = document.querySelector('#text');
+
+// console.log(storeInLocalStorage)
+
+Array.from(formTag.elements).forEach((n) => n.addEventListener('input', () => {
+  const storeInLocalStorage = {
+    name: names.value,
+    email: email.value,
+    comment: text.value,
+  };
+  const localString = JSON.stringify(storeInLocalStorage);
+  localStorage.setItem('client-info', localString);
+}));
+
+const toForm = JSON.parse(localStorage.getItem('client-info'));
+
+names.value = toForm.name;
+email.value = toForm.email;
+text.value = toForm.comment;
